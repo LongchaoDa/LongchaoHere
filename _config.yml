@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Longchao
-middle_name: 
+middle_name:
 last_name: Da
 email: dalongchao@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -641,7 +641,6 @@ jsonresume:
   - languages
   - interests
   - references
-
-
 # $ docker compose pull
 # $ docker compose up
+# prettier --write _config.yml _pages/about.md _pages/news.md
