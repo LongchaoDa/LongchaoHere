@@ -14,7 +14,7 @@
   html={https://ojs.aaai.org/index.php/AAAI/article/view/27758},
   doi={10.1609/aaai.v38i1.27758},
   abstract={Numerous solutions are proposed for the Traffic Signal Con- trol (TSC) tasks aiming to provide efficient transportation and alleviate traffic congestion. Recently, promising results have been attained by Reinforcement Learning (RL) methods through trial and error in simulators, bringing confidence in solving cities' congestion problems. However, performance gaps still exist when simulator-trained policies are deployed to the real world. This issue is mainly introduced by the sys- tem dynamic difference between the training simulators and the real-world environments. In this work, we leverage the knowledge of Large Language Models (LLMs) to understand and profile the system dynamics by a prompt-based grounded action transformation to bridge the performance gap. Specifi- cally, this paper exploits the pre-trained LLM’s inference abil- ity to understand how traffic dynamics change with weather conditions, traffic states, and road types. Being aware of the changes, the policies’ action is taken and grounded based on realistic dynamics, thus helping the agent learn a more realistic policy. We conduct experiments on four different scenarios to show the effectiveness of the proposed PromptGAT's ability to mitigate the performance gap of reinforcement learning from simulation to reality (sim-to-real).},
-  preview={wave-mechanics.gif},
+  preview={PromptGAT.png},
   selected={true},
 }
 
@@ -32,6 +32,75 @@
   html={https://ojs.aaai.org/index.php/AAAI/article/view/30019},
   doi={10.1609/aaai.v38i18.30019},
   abstract = {In practice, it is essential to compare and rank candidate policies offline before real-world deployment for safety and reliability. Prior work seeks to solve this offline policy ranking (OPR) problem through value-based methods, such as Off-policy evaluation (OPE). However, they fail to analyze special case performance (e.g., worst or best cases), due to the lack of holistic characterization of policies’ performance. It is even more difficult to estimate precise policy values when the reward is not fully accessible under sparse settings. In this paper, we present Probabilistic Offline Policy Ranking (POPR), a framework to address OPR problems by leveraging expert data to characterize the probability of a candidate policy behaving like experts, and approximating its entire performance posterior distribution to help with ranking. POPR does not rely on value estimation, and the derived performance posterior can be used to distinguish candidates in worst-, best-, and average-cases. To estimate the posterior, we propose POPR-EABC, an Energy-based Approximate Bayesian Computation (ABC) method conducting likelihood-free inference. POPR-EABC reduces the heuristic nature of ABC by a smooth energy function, and improves the sampling efficiency by a pseudo-likelihood. We empirically demonstrate that POPR-EABC is adequate for evaluating policies in both discrete and continuous action spaces across various experiment environments, and facilitates probabilistic comparisons of candidate policies before deployment.},
-  preview={wave-mechanics.gif},
+  preview={POPR.png},
   selected={true},
+}
+
+@article{da2024open,
+  bibtex_show={true},
+  title={Open-ti: Open traffic intelligence with augmented language model},
+  author={Da, Longchao and Liou, Kuanru and Chen, Tiejin and Zhou, Xuesong and Luo, Xiangyong and Yang, Yezhou and Wei, Hua},
+  journal={International Journal of Machine Learning and Cybernetics},
+  pages={1--26},
+  year={2024},
+  publisher={Springer},
+  abbr={IJMLC},
+  html={https://link.springer.com/article/10.1007/s13042-024-02190-8},
+  doi={10.1007/s13042-024-02190-8},
+  abstract = {Transportation has greatly benefited the cities’ development in the modern civilization process. Intelligent transportation, leveraging advanced computer algorithms, could further increase people’s daily commuting efficiency. However, intelligent transportation, as a cross-discipline, often requires practitioners to comprehend complicated algorithms and obscure neural networks, bringing a challenge for the advanced techniques to be trusted and deployed in practical industries. Recognizing the expressiveness of the pre-trained large language models, especially the potential of being augmented with abilities to understand and execute intricate commands, we introduce Open-TI. Serving as a bridge to mitigate the industry-academic gap, Open-TI is an innovative model targeting the goal of Turing Indistinguishable Traffic Intelligence, it is augmented with the capability to harness external traffic analysis packages based on existing conversations. Marking its distinction, Open-TI is the first method capable of conducting exhaustive traffic analysis from scratch—spanning from map data acquisition to the eventual execution in complex simulations. Besides, Open-TI is able to conduct task-specific embodiment like training and adapting the traffic signal control policies (TSC), explore demand optimizations, etc. Furthermore, we explored the viability of LLMs directly serving as control agents, by understanding the expected intentions from Open-TI, we designed an agent-to-agent communication mode to support Open-TI conveying messages to ChatZero (control agent), and then the control agent would choose from the action space to proceed the execution. We eventually provide the formal implementation structure, and the open-ended design invites further community-driven enhancements. A demo video is provided at: https://youtu.be/pZ4-5PXz9Xs.},
+  preview={OpenTI.png},
+  selected={true},
+}
+
+@inproceedings{da2023sim2real,
+  title={Sim2Real Transfer for Traffic Signal Control},
+  author={Da, Longchao and Mei, Hao and Sharma, Romir and Wei, Hua},
+  booktitle={IEEE 19th International Conference on Automation Science and Engineering},
+  pages={1--2},
+  year={2023},
+  organization={IEEE},
+  abbr={CASE23},
+  preview={CASE24.png}
+}
+
+@article{mei2023libsignal,
+  title={Libsignal: an open library for traffic signal control},
+  author={Mei, Hao and Lei, Xiaoliang and Da, Longchao and Shi, Bin and Wei, Hua},
+  journal={Machine Learning},
+  pages={1--37},
+  year={2023},
+  publisher={Springer},
+  abbr={Machine Learning},
+  preview={ML23.png},
+}
+
+@inproceedings{da2023uncertainty,
+  title={Uncertainty-aware Grounded Action Transformation towards Sim-to-Real Transfer for Traffic Signal Control},
+  author={Da, Longchao and Mei, Hao and Sharma, Romir and Wei, Hua},
+  booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)},
+  pages={1124--1129},
+  year={2023},
+  organization={IEEE},
+  abbr={CDC23},
+  preview={CDC23.png},
+}
+
+@article{da2022crowdgail,
+  title={CrowdGAIL: A spatiotemporal aware method for agent navigation},
+  author={Da, Longchao and Wei, Hua},
+  journal={Electronic Research Archive},
+  volume={31},
+  number={2},
+  year={2022},
+  abbr={ERA},
+  preview={ERA22.png},
+}
+
+@article{da2024cityflower,
+  title={CityFlowER: An Efficient and Realistic Traffic Simulator with Embedded Machine Learning Models},
+  author={Da, Longchao and Chu, Chen and Zhang, Weinan and Wei, Hua},
+  journal={arXiv preprint arXiv:2402.06127},
+  year={2024},
+  abbr={ECML-PKDD24},
+  preview={ECMLPKDD24.png},
 }
