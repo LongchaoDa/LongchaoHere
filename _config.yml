@@ -646,8 +646,8 @@ jsonresume:
 # prettier --write _config.yml _pages/about.md _pages/news.md
 
 # deploy on github page:
-# 1. 
-# bundle lock --add-platform x86_64-linux                  
+# 1.
+# bundle lock --add-platform x86_64-linux
 # git add Gemfile.lock
 # git commit -m "Add x86_64-linux platform to Gemfile.lock"
 # git push origin master

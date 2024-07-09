@@ -20,11 +20,11 @@ social: true # includes social icons at the bottom of the page
 
 Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei.](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
-"AI should serve for the real world problems. ---  Andrew Ng" <br>
+"AI should serve for the real world problems. --- Andrew Ng" <br>
 
 Push a step forward towards more deployable policy learning has been my consistent research interest. My previous work is trying to achieve it from **1) designing more realistic simulations**, **2) grounding the sim-to-real transition gaps**, and **3) conducting more comprehensive policy evaluations prior to deployment**.
 
-I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses. 
+I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.
 
 <body>
   <div id="clustrmaps-container" style="width: 300px; height: 300px; overflow: hidden;">
