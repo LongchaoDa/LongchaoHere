@@ -122,24 +122,12 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Sim-to-real RL",
-        "LLMs (Agents)",
-        "Uncertainty quantification",
-        "Generative AI",
-        "Computer Vision",
-        "Embodiment AI"
-      ]
+      "keywords": ["Sim-to-real RL", "LLMs (Agents)", "Uncertainty quantification", "Generative AI", "Computer Vision", "Embodiment AI"]
     },
     {
       "name": "Hobby",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Music",
-        "Fishing",
-        "Gym",
-        "Movies"
-      ]
+      "keywords": ["Music", "Fishing", "Gym", "Movies"]
     }
   ]
 }
