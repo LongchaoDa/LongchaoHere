@@ -311,8 +311,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Da]
+  first_name: [Longchao]
 
   style: apa
   locale: en
@@ -651,3 +651,4 @@ jsonresume:
 # git add Gemfile.lock
 # git commit -m "Add x86_64-linux platform to Gemfile.lock"
 # git push origin master
+# prettier --write _config.yml _pages/about.md _pages/news.md _news/announcement_1.md _pages/teaching.md assets/json/resume.json
