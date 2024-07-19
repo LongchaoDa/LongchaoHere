@@ -9,6 +9,8 @@ nav_order: 6
 
 I have been cooperating with students and help them with their success. Some outstanding students are:
 
+**Rohan Chhibba, Rushabh Jaiswal** (Master Students), 2024, paper accepted to CIKM. <br>
+
 **Chen Chu** (Master Student), 2024, paper accepted to ECML-PKDD. <br>
 
 **Kuanru Liu** (Master Student), 2023, papers accepted to IJMLC, and ICLR24 @ LLM Agent, travel to Vienna Austria for presentation. <br>

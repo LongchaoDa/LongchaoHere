@@ -53,28 +53,35 @@
 }
 
 @inproceedings{da2023sim2real,
+  bibtex_show={true},
   title={Sim2Real Transfer for Traffic Signal Control},
   author={Da, Longchao and Mei, Hao and Sharma, Romir and Wei, Hua},
   booktitle={IEEE 19th International Conference on Automation Science and Engineering},
   pages={1--2},
+  html={https://ieeexplore.ieee.org/abstract/document/10260398},
   year={2023},
   organization={IEEE},
+  abstract={Traffic signal control is a complex and important task that affects the daily lives of millions of people. Reinforcement Learning (RL) has shown promising results in optimizing traffic signal control, but transferring learned policies from simulation to the real world remains a challenge due to the domain gap between the simulation and the complex real-life scenario. In this paper, we utilize grounded action transformation to mitigate the domain shifting problem and improve Sim2Real transfer for RL-based traffic signal control. Grounded action transformation leverages the dynamics between the simulation and real-world actions to generate effective real-world actions. We evaluate our method on a simulated traffic environment and show that it significantly improves the performance of the transferred RL policy in the real world. Our results demonstrate the potential of grounded action transformation as a promising technique for Sim2Real transfer in RL-based traffic signal control.},
   abbr={CASE23},
   preview={CASE24.png}
 }
 
 @article{mei2023libsignal,
+  bibtex_show={true},
   title={Libsignal: an open library for traffic signal control},
   author={Mei, Hao and Lei, Xiaoliang and Da, Longchao and Shi, Bin and Wei, Hua},
   journal={Machine Learning},
   pages={1--37},
   year={2023},
   publisher={Springer},
+  html={https://link.springer.com/article/10.1007/s10994-023-06412-y},
+  abstract={This paper introduces a library for cross-simulator comparison of reinforcement learning models in traffic signal control tasks. This library is developed to implement recent state-of-the-art reinforcement learning models with extensible interfaces and unified cross-simulator evaluation metrics. It supports commonly-used simulators in traffic signal control tasks, including Simulation of Urban MObility(SUMO) and CityFlow, and multiple benchmark datasets for fair comparisons. We conducted experiments to validate our implementation of the models and to calibrate the simulators so that the experiments from one simulator could be referential to the other. Based on the validated models and calibrated environments, this paper compares and reports the performance of current state-of-the-art RL algorithms across different datasets and simulators. This is the first time that these methods have been compared fairly under the same datasets with different simulators.},
   abbr={Machine Learning},
   preview={ML23.png},
 }
 
 @inproceedings{da2023uncertainty,
+  bibtex_show={true},
   title={Uncertainty-aware Grounded Action Transformation towards Sim-to-Real Transfer for Traffic Signal Control},
   author={Da, Longchao and Mei, Hao and Sharma, Romir and Wei, Hua},
   booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)},
@@ -82,21 +89,28 @@
   year={2023},
   organization={IEEE},
   abbr={CDC23},
+  html={https://ieeexplore.ieee.org/abstract/document/10383645},
+  abstract={Traffic signal control (TSC) is a complex and important task that affects the daily lives of millions of people. Reinforcement Learning (RL) has shown promising results in optimizing traffic signal control, but current RL-based TSC methods are mainly trained in simulation and suffer from the performance gap between simulation and the real world. In this paper, we propose a simulation-to-real-world (sim-to-real) transfer approach called UGAT, which transfers a learned policy trained from a simulated environment to a real-world environment by dynamically transforming actions in the simulation with uncertainty to mitigate the domain gap of transition dynamics. We evaluate our method on a simulated traffic environment and show that it significantly improves the performance of the transferred RL policy in the real world.},
   preview={CDC23.png},
+  selected={true},
 }
 
 @article{da2022crowdgail,
+  bibtex_show={true},
   title={CrowdGAIL: A spatiotemporal aware method for agent navigation},
   author={Da, Longchao and Wei, Hua},
   journal={Electronic Research Archive},
   volume={31},
   number={2},
   year={2022},
+  html={https://par.nsf.gov/biblio/10404433},
+  abstract={Agent navigation has been a crucial task in today's service and automated factories. Many efforts are to set specific rules for agents in a certain scenario to regulate the agent's behaviors. However, not all situations could be in advance considered, which might lead to terrible performance in a real-world application. In this paper, we propose CrowdGAIL, a method to learn from expert behaviors as an instructing policy, can train most 'human-like' agents in navigation problems without manually setting any reward function or beforehand regulations. First, the proposed model structure is based on generative adversarial imitation learning (GAIL), which imitates how humans take actions and move toward the target to a maximum extent, and by comparison, we prove the advantage of proximal policy optimization (PPO) to trust region policy optimization, thus, GAIL-PPO is what we base. Second, we design a special Sequential DemoBuffer compatible with the inner long short-term memory structure to apply spatiotemporal instruction on the agent's next step. Third, the paper demonstrates the potential of the model with an integrated social manner in a multi-agent scenario by considering human collision avoidance as well as social comfort distance. At last, experiments on the generated dataset from CrowdNav verify how close our model would act like a human being in the trajectory aspect and also how it could guide the multi-agents by avoiding any collision. Under the same evaluation metrics, CrowdGAIL shows better results compared with classic Social-GAN.},
   abbr={ERA},
   preview={ERA22.png},
 }
 
 @article{da2024cityflower,
+  bibtex_show={true},
   title={CityFlowER: An Efficient and Realistic Traffic Simulator with Embedded Machine Learning Models},
   author={Da, Longchao and Chu, Chen and Zhang, Weinan and Wei, Hua},
   journal={arXiv preprint arXiv:2402.06127},
@@ -104,4 +118,21 @@
   abbr={ECML-PKDD24},
   preview={ECMLPKDD24.png},
   selected={true},
+  html={https://arxiv.org/pdf/2402.06127},
+  video={https://drive.google.com/drive/u/1/folders/1O6-HR8HgNoMEBzqAJWpRz5p6-3l7VtPy},
+  abstract={Traffic simulation is an essential tool for transportation infrastructure planning, intelligent traffic control policy learning, and traffic flow analysis. Its effectiveness relies heavily on the realism of the simulators used. Traditional traffic simulators, such as SUMO and CityFlow, are often limited by their reliance on rule-based models with hyperparameters that oversimplify driving behaviors, resulting in unrealistic simulations. To enhance realism, some simulators have provided Application Programming Interfaces (APIs) to interact with Machine Learning (ML) models, which learn from observed data and offer more sophisticated driving behavior models. However, this approach faces challenges in scalability and time efficiency as vehicle numbers increase. Addressing these limitations, we introduce CityFlowER, an advancement over the existing CityFlow simulator, designed for efficient and realistic city-wide traffic simulation. CityFlowER innovatively pre-embeds ML models within the simulator, eliminating the need for external API interactions and enabling faster data computation. This approach allows for a blend of rule-based and ML behavior models for individual vehicles, offering unparalleled flexibility and efficiency, particularly in large-scale simulations. We provide detailed comparisons with existing simulators, implementation insights, and comprehensive experiments to demonstrate CityFlowER's superiority in terms of realism, efficiency, and adaptability.}
+}
+
+@article{da2024shaded,
+  bibtex_show={true},
+  title={Shaded Route Planning Using Active Segmentation and Identification of Satellite Images},
+  author={Da, Longchao and Chhibba, Rohan and Jaiswal, Rushabh and Middel, Ariane and Wei, Hua},
+  journal={arXiv preprint arXiv:2407.13689},
+  year={2024},
+  abbr={CIKM24},
+  preview={cikm2024.png},
+  selected={true},
+  html={https://arxiv.org/pdf/2407.13689},
+  video={https://drive.google.com/drive/u/1/folders/1BvR0i0eImDb86HXiGS4hGRoFKa71DAnJ},
+  abstract={Heatwaves pose significant health risks, particularly due to prolonged exposure to high summer temperatures. Vulnerable groups, especially pedestrians and cyclists on sun-exposed sidewalks, motivate the development of a route planning method that incorporates somatosensory temperature effects through shade ratio consideration. This paper is the first to introduce a pipeline that utilizes segmentation foundation models to extract shaded areas from high-resolution satellite images. These areas are then integrated into a multi-layered road map, enabling users to customize routes based on a balance between distance and shade exposure, thereby enhancing comfort and health during outdoor activities. Specifically, we construct a graph-based representation of the road map, where links indicate connectivity and are updated with shade ratio data for dynamic route planning. This system is already implemented online, with a video demonstration, and will be specifically adapted to assist travelers during the 2024 Olympic Games in Paris.}
 }
