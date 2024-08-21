@@ -24,7 +24,14 @@ Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State
 
 Push a step forward towards more deployable policy learning has been my consistent research interest. My previous work is trying to achieve it from **1) designing more realistic simulations**, **2) grounding the sim-to-real transition gaps**, and **3) conducting more comprehensive policy evaluations prior to deployment**.
 
-I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.
+I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.<br>
+<br>
+<br>
+Recent News:
+
+I am selected as NSF travel awardee to attend CIKM2024. See you in Boise, Idaho, USA.<br>
+
+I was selected (30 Ph.D. students nation-wide) to attend [AI-SCORE](https://ai-score.github.io/) at University of Maryland held by [Michael Fu - UMD](https://www.rhsmith.umd.edu/directory/michael-fu), [Sven Koenig - USC ](https://idm-lab.org/) and [David Shmoys - Cornell](https://www.engineering.cornell.edu/faculty-directory/david-b-shmoys)
 
 <body>
   <div id="clustrmaps-container" style="width: 300px; height: 300px; overflow: hidden;">

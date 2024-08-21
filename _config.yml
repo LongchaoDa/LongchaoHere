@@ -641,9 +641,13 @@ jsonresume:
   - languages
   - interests
   - references
-# $ docker compose pull
-# $ docker compose up
+# $ docker compose pull # pull from docker recent 
+# $ docker compose up # preview on local machine 
 # prettier --write _config.yml _pages/about.md _pages/news.md
+
+# SynTraC: A Synthetic Dataset for Traffic Signal Control from Traffic Monitoring Cameras
+
+
 
 # deploy on github page:
 # 1.
