@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei.](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
-"AI should serve for the real world problems. --- Andrew Ng" 
+"AI should serve for the real world problems. --- Andrew Ng"
 
 <br> I have been working on LLMs & Foundation Models and Trustworthiness from following aspects: <br>
 
@@ -29,23 +29,54 @@ Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State
 **3) trustworthy LLM with RAG enhanced evidential answering**, <br>
 **4) free-form text segmentation for Medical Images, Landuse segmentation on Satellite Images - ongoing**. <br>
 
-
 <br> Push a step forward towards more deployable policy learning has also been my consistent research interest. My previous work is trying to achieve it from: <br>
 
 **1) designing more realistic simulations**, <br>
 **2) grounding the sim-to-real transition gaps**, <br>
 **3) conducting more comprehensive policy evaluations prior to deployment**. <br>
 
-I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.<br>
-<br>
-<br>
+<!-- I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.<br> -->
+<!-- <br> -->
+<!-- <br> -->
 
-<div style="width: 570px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left;">
+<!-- <div style="width: 570px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto;"> -->
+<div style="width: 570px; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto;">
   <p><strong>Recent News:</strong></p>
+  <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+    <div>[2024-10]</div>
+    <div>I am invited to join Program Committee at SDM 2025.</div>
 
-  <p>I am selected as NSF travel awardee to attend CIKM2024. See you in Boise, Idaho, USA.</p>
+    <div>[2024-10]</div>
+    <div>I will serve as Session Chair at CIKM24. <br>*Room: 110A. <br>*Time: Tuesday, 11:00 - 12:45. <br>Topic FP2: Urban Systems.</div>
 
-  <p>I was selected (30 Ph.D. students nation-wide) to attend <a href="https://ai-score.github.io/">AI-SCORE</a> at University of Maryland held by <a href="https://www.rhsmith.umd.edu/directory/michael-fu">Michael Fu - UMD</a>, <a href="https://idm-lab.org/">Sven Koenig - USC</a> and <a href="https://www.engineering.cornell.edu/faculty-directory/david-b-shmoys">David Shmoys - Cornell</a></p>
+    <div>[2024-09]</div>
+    <div>One paper is accepted to NeurIPS 2024.</div>
+
+    <div>[2024-09]</div>
+    <div>Finished my Internship at GE Healthcare <a href="https://github.com/LongchaoDa/papers/blob/main/Segment%20as%20You%20Wish%20-%20Free-Form%20Language-Based%20Segmentation%20for%20Medical%20Images.pdf"> paper </a>, thanks <a href="https://sites.google.com/view/danicaxiao/home"> Danica Xiao</a>, <a href="https://rui1521.github.io/online-cv/"> Rui Wang </a> and <a href="https://xuxiaojian.github.io/"> Xiaojian Xu </a>, I had a great time with you! </div>
+
+    <div>[2024-08]</div>
+    <div>I am selected as NSF travel awardee to attend CIKM2024. See you in Boise, Idaho, USA.</div>
+
+    <div>[2024-08]</div>
+    <div>One paper is accepted to ITSC 2024.</div>
+
+    <div>[2024-08]</div>
+    <div>One paper is accepted to CIKM 2024.</div>
+
+    <div>[2024-08]</div>
+    <div>Invited to give a talk at <a href="https://sites.google.com/view/workshop-itsc-2024/%E9%A6%96%E9%A1%B5"> ITSC2024</a> about advanced simulation and policy learning. <a href="https://youtu.be/Le3BjhsYe2Q"> Video</a></div>
+
+    <div>[2024-05]</div>
+    <div>One paper is accepted to ECML-PKDD 2024.</div>
+
+    <div>[2024-05]</div>
+    <div>I was selected (30 Ph.D. students nation-wide) to attend <a href="https://ai-score.github.io/">AI-SCORE</a> at University of Maryland held by <a href="https://www.rhsmith.umd.edu/directory/michael-fu">Michael Fu - UMD</a>, <a href="https://idm-lab.org/">Sven Koenig - USC</a> and <a href="https://www.engineering.cornell.edu/faculty-directory/david-b-shmoys">David Shmoys - Cornell</a></div>
+
+    <div>[2024-01]</div>
+    <div>Two first author papers are accepted to AAAI 2024.</div>
+
+  </div>
 </div>
 
 <br>

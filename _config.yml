@@ -643,6 +643,11 @@ jsonresume:
   - references
 # $ docker compose pull # pull from docker recent
 # $ docker compose up # preview on local machine
+#  docker-compose run --rm jekyll bundle install
+
+# or:
+# docker compose up --build
+
 # prettier --write _config.yml _pages/about.md _pages/news.md
 
 # deploy on github page:

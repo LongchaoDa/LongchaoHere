@@ -6,8 +6,11 @@ description: Research community service.
 nav: true
 nav_order: 6
 ---
+2024: Reviewer for WACV24 <br>
 
-2024: I am serving as a PC Member for WWW (The Web Conference 2024) <br>
+2024: Program Comittee for SDM24 <br>
+
+2024: I am serving as a PC Member for WWW demo track(The Web Conference 2024) <br>
 
 2024: Reviewer at PAKDD 2024.<br>
 
