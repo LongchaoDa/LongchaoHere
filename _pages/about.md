@@ -40,9 +40,14 @@ Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State
 <!-- <br> -->
 
 <!-- <div style="width: 570px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto;"> -->
-<div style="width: 570px; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto;">
+<div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+
+      <div>[2024-09]</div>
+    <div>I have made a project page for our paper: <a href="https://arxiv.org/pdf/2410.12831"> Segment as You Wish--Free-Form Language-Based Segmentation for Medical Images </a>, please visit the link at: <a href="https://longchaoda.github.io/segmentAsYouWish.github.io/"> check out here! </a> </div>
+
+
     <div>[2024-10]</div>
     <div>I am invited to join Program Committee at SDM 2025.</div>
 
