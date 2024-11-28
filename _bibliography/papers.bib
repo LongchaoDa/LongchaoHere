@@ -11,7 +11,7 @@
   year={2024},
   abbr={pre-print},
   abstract={The Large language models (LLMs) have showcased superior capabilities in sophisticated tasks across various domains, stemming from basic question-answer (QA), they are nowadays used as decision assistants or explainers for unfamiliar content. However, they are not always correct due to the data sparsity in specific domain corpus, or the model's hallucination problems. Given this, how much should we trust the responses from LLMs? This paper studies the question in two aspects, first, we find measuring directly on raw responses from LLMs is easy to be vague due to the lack of context, second this paper identifies the oversight in existing work regarding the neglect of directional relationships between sentences. To tackle the challenges, we first provide a claim-based response augmentation, by completing the fine-grained claims in raw response, and augmenting into a more explicit description, it removes the randomness, improves the completeness, and provides a response set that robustly represents the knowledge of LLMs. Then, second, methodologically we present a way to evaluate the uncertainty that captures the directional instability between sentences by constructing a directional graph using entailment probabilities, and conducting Random Walk Laplacian given the asymmetric property in the directed graph, then the uncertainty is aggregated by the derived eigenvalues from the Laplacian process. We conducted extensive experiments and empirically demonstrated the superiority of our proposed solutions.}
-  preview={segmed.jpg},
+  preview={segmed.png},
   selected={true},
 }
 
@@ -24,7 +24,7 @@
   abbr={pre-print},
   html={https://longchaoda.github.io/segmentAsYouWish.github.io/},
   abstract={Medical imaging is crucial for diagnosing a patient's health condition, and accurate segmentation of these images is essential for isolating regions of interest to ensure precise diagnosis and treatment planning. Existing methods primarily rely on bounding boxes or point-based prompts, while few have explored text-related prompts, despite clinicians often describing their observations and instructions in natural language. To address this gap, we first propose a RAG-based free-form text prompt generator, that leverages the domain corpus to generate diverse and realistic descriptions. Then, we introduce FLanS, a novel medical image segmentation model that handles various free-form text prompts, including professional anatomy-informed queries, anatomy-agnostic position-driven queries, and anatomy-agnostic size-driven queries. Additionally, our model also incorporates a symmetry-aware canonicalization module to ensure consistent, accurate segmentations across varying scan orientations and reduce confusion between the anatomical position of an organ and its appearance in the scan. FLanS is trained on a large-scale dataset of over 100k medical images from 7 public datasets. Comprehensive experiments demonstrate the model's superior language understanding and segmentation precision, along with a deep comprehension of the relationship between them, outperforming SOTA baselines on both in-domain and out-of-domain datasets.},
-  preview={uncerLLM.jpg},
+  preview={uncerLLM.png},
   selected={true},
 }
 
