@@ -3,6 +3,45 @@
 
 @string{aps = {American Physical Society,}}
 
+
+
+
+@article{da2024evidencechat,
+  bibtex_show={true},
+  title={EvidenceChat: A RAG Enhanced LLM Framework for Trustworthy and Evidential Response Generation},
+  author={Da, Longchao and Shah, Parth Mitesh and Singh, Ananya and Wei, Hua},
+  abstract={The Large Language Model has become an important assistant for many of human’s decision-making. However, a side note almost comes along with every single LLM:‘LLMs can make mistakes. Be careful with important info’. This reveals the fact that not all of the information from LLMs is trustworthy, and people still need to judge by themselves. Yet, the hallucination is so powerful that a made-up conclusion could even come with a seemingly plausible reason, which brings intricate challenges and a trust crisis among users. This paper proposes EvidenceChat, a framework that tackles this issue in a retrieval-augmented fashion, specifically, when the user uploads a material document, an indexed vector space will be constructed based on text embeddings, which helps construct a retrieval-augmented agent, enhancing the agent’s responses with additional knowledge beyond its training corpus. Then, we propose a three-step evidential retrieval method to accurately locate the evidence of a language agent’s conclusion in the source context: Chain-of-Thought (CoT) logic generation, top-k relevant chunk vector matching, and a self-reflection-based precise sentence identification. We demonstrate that our method improves the existing models’ performance in terms of identifying the exact evidence in a free-form context, providing a reliable way to examine the resources of LLM’s conclusion and help with the judgment of the trustworthiness. The dataset and code will be released.},
+  year={2024},
+  html={https://www.researchgate.net/profile/Parth-Shah-142/publication/385173895_EvidenceChat_A_RAG_Enhanced_LLM_Framework_for_Trustworthy_and_Evidential_Response_Generation/links/671983dadf4b534d4eeddf46/EvidenceChat-A-RAG-Enhanced-LLM-Framework-for-Trustworthy-and-Evidential-Response-Generation.pdf},
+  abbr={CIKM24},
+  selected={true},
+  preview={evidenceChat.png},
+}
+
+@article{young2024flexible,
+  bibtex_show={true},
+  title={Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks},
+  author={Young, Spencer and Jenkins, Porter and Da, Longchao and Dotson, Jeff and Wei, Hua},
+  abstract={Neural networks that can produce accurate, input-conditional uncertainty representations are critical for real-world applications. Recent progress on heteroscedastic continuous regression has shown great promise for calibrated uncertainty quantification on complex tasks, like image regression. However, when these methods are applied to discrete regression tasks, such as crowd counting, ratings prediction, or inventory estimation, they tend to produce predictive distributions with numerous pathologies. We propose to address these issues by training a neural network to output the parameters of a Double Poisson distribution, which we call the Deep Double Poisson Network (DDPN). In contrast to existing methods that are trained to minimize Gaussian negative log likelihood (NLL), DDPNs produce a proper probability mass function over discrete output. Additionally, DDPNs naturally model under-, over-, and equi-dispersion, unlike networks trained with the more rigid Poisson and Negative Binomial parameterizations. We show DDPNs 1) vastly outperform existing discrete models; 2) meet or exceed the accuracy and flexibility of networks trained with Gaussian NLL; 3) produce proper predictive distributions over discrete counts; and 4) exhibit superior out-of-distribution detection. DDPNs can easily be applied to a variety of count regression datasets including tabular, image, point cloud, and text data.},
+  year={2024},
+  html={https://arxiv.org/abs/2406.09262},
+  abbr={pre-print},
+  selected={true},
+  preview={deepUncer.png},
+}
+
+@article{yao2024comal,
+  bibtex_show={true},
+  html={https://arxiv.org/abs/2410.14368},
+  title={CoMAL: Collaborative Multi-Agent Large Language Models for Mixed-Autonomy Traffic},
+  author={Yao, Huaiyuan and Da, Longchao and Nandam, Vishnu and Turnau, Justin and Liu, Zhiwei and Pang, Linsey and Wei, Hua},
+  abstract={The integration of autonomous vehicles into urban traffic has great potential to improve efficiency by reducing congestion and optimizing traffic flow systematically. In this paper, we introduce CoMAL (Collaborative Multi-Agent LLMs), a framework designed to address the mixed-autonomy traffic problem by collaboration among autonomous vehicles to optimize traffic flow. CoMAL is built upon large language models, operating in an interactive traffic simulation environment. It utilizes a Perception Module to observe surrounding agents and a Memory Module to store strategies for each agent. The overall workflow includes a Collaboration Module that encourages autonomous vehicles to discuss the effective strategy and allocate roles, a reasoning engine to determine optimal behaviors based on assigned roles, and an Execution Module that controls vehicle actions using a hybrid approach combining rule-based models. Experimental results demonstrate that CoMAL achieves superior performance on the Flow benchmark. Additionally, we evaluate the impact of different language models and compare our framework with reinforcement learning approaches. It highlights the strong cooperative capability of LLM agents and presents a promising solution to the mixed-autonomy traffic challenge},
+  year={2024},
+  preview={multiagentCars.png},
+  selected={true},
+  abbr={pre-print},
+}
+
 @article{da2024llm,
   bibtex_show={true},
   title={LLM uncertainty quantification through directional entailment graph and claim level response augmentation},
