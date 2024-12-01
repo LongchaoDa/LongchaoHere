@@ -18,22 +18,22 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey there, I'm a Ph.D. student at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei.](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
+Hey there👋, I'm a Ph.D. student at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
 "AI should serve for the real world problems. --- Andrew Ng"
 
 <br> I have been working on LLMs & Foundation Models and Trustworthiness from following aspects: <br>
 
-**1) augmented LLM agent for domain specific tasks with tool embodiment**, <br>
-**2) linguistics entailment informed LLM reasoning uncertainty quantification**, <br>
-**3) trustworthy LLM with RAG enhanced evidential answering**, <br>
-**4) free-form text segmentation for Medical Images, Landuse segmentation on Satellite Images - ongoing**. <br>
+**1) Augmented LLM agent for domain specific tasks with tool embodiment**, <br>
+**2) LLM reasoning uncertainty quantification by linguistics entailment information**, <br>
+**3) Trustworthy LLM with RAG enhanced evidential answering**, <br>
+**4) Free-form text segmentation for Medical Images, Landuse segmentation on Satellite Images**. <br>
 
-<br> Push a step forward towards more deployable policy learning has also been my consistent research interest. My previous work is trying to achieve it from: <br>
+<br> Push a step forward towards more deployable policy learning. My previous work is trying to achieve it from: <br>
 
-**1) designing more realistic simulations**, <br>
-**2) grounding the sim-to-real transition gaps**, <br>
-**3) conducting more comprehensive policy evaluations prior to deployment**. <br>
+**1) Designing more realistic simulations**, <br>
+**2) Grounding the sim-to-real transition gaps**, <br>
+**3) Conducting more comprehensive policy evaluations prior to deployment**. <br>
 
 <!-- I also keen on benefiting sophisticated domain tasks from LLMs (Agent), and better understanding the trustworthiness of Language Models' responses.<br> -->
 <!-- <br> -->
