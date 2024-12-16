@@ -22,14 +22,18 @@ Hey there👋, I'm a Ph.D. student at the Computer Science Department, Arizona S
 
 "AI should serve for the real world problems. --- Andrew Ng"
 
-<br> I have been working on LLMs & Foundation Models and Trustworthiness from following aspects: <br>
+My research roadmap is as shown:
 
-**1) Augmented LLM agent for domain specific tasks with tool embodiment**, <br>
-**2) LLM reasoning uncertainty quantification by linguistics entailment information**, <br>
-**3) Trustworthy LLM with RAG enhanced evidential answering**, <br>
-**4) Free-form text segmentation for Medical Images, Landuse segmentation on Satellite Images**. <br>
+<img src="assets/img/roadmap.jpg" alt="Roadmap" style="display: block; margin: 0 auto; width: 50%;">
 
-<br> Push a step forward towards more deployable policy learning. My previous work is trying to achieve it from: <br>
+<br> I have been working on Foundation Models & LLM Trustworthiness from two aspects: solving bottleneck (BN) problems and generalize to real applications (Apply). <br>
+
+**1) LLM reasoning uncertainty quantification by linguistics entailment information(BN)**, <br>
+**2) Trustworthy LLM with RAG enhanced evidential answering(BN)**, <br>
+**3) Free-form text prompt segmentation(BN).** <br>
+**4) Augmented LLM agent for domain specific tasks with tool embodiment(Apply)**. <br>
+
+<br> Towards more deployable policy learning (i.e., RL). My previous work is trying to achieve it from: <br>
 
 **1) Designing more realistic simulations**, <br>
 **2) Grounding the sim-to-real transition gaps**, <br>
