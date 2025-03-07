@@ -28,12 +28,19 @@
       "location": "Newark, New Jersey, USA",
       "url": "https://www.njit.edu/",
       "area": "Information Systems",
-      "studyType": "Graduate Degree",
+      "studyType": "Ph.D.",
       "startDate": "2022-08-16",
       "endDate": "2023-06-01"
     }
   ],
   "work": [
+    {
+      "name": "Honda Research Institute, USA.",
+      "position": "Research Associate Intern",
+      "startDate": "2025-01-21",
+      "endDate": "2025-05-03",
+      "summary": "Prediction Module for Autonomous Driving."
+    },
     {
       "name": "GE-Healthcare",
       "position": "AI Scientist Intern",
@@ -58,19 +65,37 @@
   ],
   "awards": [
     {
-      "title": "Doctoral Fellowship at Arizona State University",
-      "date": "2024-03-11",
-      "awarder": "School of Computing and Augmented Intelligence at ASU",
-      "summary": "Award is to Ph.D. students who make good contribution to academic research."
+      "title": "SDM Travel Award",
+      "date": "2025-02-10",
+      "awarder": "SIAM International Conference on Data Mining (SDM25)",
+      "summary": "Researchers with good academic stands and to present at conference."
     },
     {
-      "title": "Third prize of the NJIT-DANA KNOX Student Research Showcase",
+      "title": "Doctoral Fellowship (24-25) at Arizona State University",
+      "date": "2025-01-21",
+      "awarder": "School of Computing and Augmented Intelligence at ASU",
+      "summary": "Ph.D. students with good standing on academic and research."
+    },
+    {
+      "title": "NSF Travel Award by CIKM 2024",
+      "date": "2024-10-20",
+      "awarder": "33rd ACM International Conference on Information and Knowledge Management",
+      "summary": "Researchers who have good academic stands and to present at conference."
+    },
+    {
+      "title": "Doctoral Fellowship (23-24) at Arizona State University",
+      "date": "2024-03-11",
+      "awarder": "School of Computing and Augmented Intelligence at ASU",
+      "summary": "Ph.D. students with good standing on academic and research."
+    },
+    {
+      "title": "Third Prize of the NJIT-DANA KNOX Student Research Showcase",
       "date": "2023-04-24",
       "awarder": "Ying Wu College of Computing at NJIT",
       "summary": "Award is to graduate students who make great presentations on research project."
     },
     {
-      "title": "NSF travel award by CIKM 2022",
+      "title": "NSF Travel Award by CIKM 2022",
       "date": "2022-10-12",
       "awarder": "31st ACM Conference on Information and Knowledge Management",
       "summary": "Award is to researchers who have good academic stands and have paper to present at conference."

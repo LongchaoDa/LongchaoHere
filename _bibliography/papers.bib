@@ -3,6 +3,64 @@
 
 @string{aps = {American Physical Society,}}
 
+
+
+@article{da2025understanding,
+  bibtex_show={true},
+  title={Understanding the Uncertainty of LLM Explanations: A Perspective Based on Reasoning Topology},
+  author={Da, Longchao and Liu, Xiaoou and Dai, Jiaxin and Cheng, Lu and Wang, Yaqing and Wei, Hua},
+  html={https://arxiv.org/abs/2502.17026},
+  year={2025},
+  abbr={pre-print},
+  abstract={Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks due to large training datasets and powerful transformer architecture. However, the reliability of responses from LLMs remains a question. Uncertainty quantification (UQ) of LLMs is crucial for ensuring their reliability, especially in areas such as healthcare, finance, and decision-making. Existing UQ methods primarily focus on semantic similarity, overlooking the deeper knowledge dimensions embedded in responses. We introduce a multi-dimensional UQ framework that integrates semantic and knowledge-aware similarity analysis. By generating multiple responses and leveraging auxiliary LLMs to extract implicit knowledge, we construct separate similarity matrices and apply tensor decomposition to derive a comprehensive uncertainty representation. This approach disentangles overlapping information from both semantic and knowledge dimensions, capturing both semantic variations and factual consistency, leading to more accurate UQ. Our empirical evaluations demonstrate that our method outperforms existing techniques in identifying uncertain responses, offering a more robust framework for enhancing LLM reliability in high-stakes applications.},
+  preview={reasonUQ.jpg},
+  selected={true},
+}
+
+
+
+@article{da2025survey,
+  bibtex_show={true},
+  title={A Survey of Sim-to-Real Methods in RL: Progress, Prospects and Challenges with Foundation Models},
+  author={Da, Longchao and Turnau, Justin and Kutralingam, Thirulogasankar Pranav and Velasquez, Alvaro and Shakarian, Paulo and Wei, Hua},
+  html={https://arxiv.org/abs/2502.13187},
+  year={2025},
+  abbr={pre-print},
+  abstract={Deep Reinforcement Learning (RL) has been explored and verified to be effective in solving decision-making tasks in various domains, such as robotics, transportation, recommender systems, etc. It learns from the interaction with environments and updates the policy using the collected experience. However, due to the limited real-world data and unbearable consequences of taking detrimental actions, the learning of RL policy is mainly restricted within the simulators. This practice guarantees safety in learning but introduces an inevitable sim-to-real gap in terms of deployment, thus causing degraded performance and risks in execution. There are attempts to solve the sim-to-real problems from different domains with various techniques, especially in the era with emerging techniques such as large foundations or language models that have cast light on the sim-to-real. This survey paper, to the best of our knowledge, is the first taxonomy that formally frames the sim-to-real techniques from key elements of the Markov Decision Process (State, Action, Transition, and Reward). Based on the framework, we cover comprehensive literature from the classic to the most advanced methods including the sim-to-real techniques empowered by foundation models, and we also discuss the specialties that are worth attention in different domains of sim-to-real problems. Then we summarize the formal evaluation process of sim-to-real performance with accessible code or benchmarks. The challenges and opportunities are also presented to encourage future exploration of this direction. We are actively maintaining a to include the most up-to-date sim-to-real research outcomes to help the researchers in their work.},
+  preview={thumbSim2real.jpg},
+  selected={true},
+}
+
+
+@article{liu2025mcqa,
+  bibtex_show={true},
+  title={MCQA-Eval: Efficient Confidence Evaluation in NLG with Gold-Standard Correctness Labels},
+  author={Liu, Xiaoou and Lin, Zhen and Da, Longchao and Chen, Chacha and Trivedi, Shubhendu and Wei, Hua},
+  html={https://arxiv.org/abs/2502.14268},
+  year={2025},
+  abbr={pre-print},
+  abstract={Large Language Models (LLMs) require robust confidence estimation, particularly in critical domains like healthcare and law where unreliable outputs can lead to significant consequences. Despite much recent work in confidence estimation, current evaluation frameworks rely on correctness functions -- various heuristics that are often noisy, expensive, and possibly introduce systematic biases. These methodological weaknesses tend to distort evaluation metrics and thus the comparative ranking of confidence measures. We introduce MCQA-Eval, an evaluation framework for assessing confidence measures in Natural Language Generation (NLG) that eliminates dependence on an explicit correctness function by leveraging gold-standard correctness labels from multiple-choice datasets. MCQA-Eval enables systematic comparison of both internal state-based white-box (e.g. logit-based) and consistency-based black-box confidence measures, providing a unified evaluation methodology across different approaches. Through extensive experiments on multiple LLMs and widely used QA datasets, we report that MCQA-Eval provides efficient and more reliable assessments of confidence estimation methods than existing approaches.},
+  preview={multichoice.jpg},
+  selected={false},
+}
+
+
+
+@article{chen2025uncertainty,
+  bibtex_show={true},
+  title={Uncertainty Quantification of Large Language Models through Multi-Dimensional Responses},
+  author={Chen, Tiejin and Liu, Xiaoou and Da, Longchao and Papalexakis, Vagelis and Wei, Hua},
+  html={https://arxiv.org/abs/2502.16820},
+  year={2025},
+  abbr={pre-print},
+  abstract={Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks due to large training datasets and powerful transformer architecture. However, the reliability of responses from LLMs remains a question. Uncertainty quantification (UQ) of LLMs is crucial for ensuring their reliability, especially in areas such as healthcare, finance, and decision-making. Existing UQ methods primarily focus on semantic similarity, overlooking the deeper knowledge dimensions embedded in responses. We introduce a multi-dimensional UQ framework that integrates semantic and knowledge-aware similarity analysis. By generating multiple responses and leveraging auxiliary LLMs to extract implicit knowledge, we construct separate similarity matrices and apply tensor decomposition to derive a comprehensive uncertainty representation. This approach disentangles overlapping information from both semantic and knowledge dimensions, capturing both semantic variations and factual consistency, leading to more accurate UQ. Our empirical evaluations demonstrate that our method outperforms existing techniques in identifying uncertain responses, offering a more robust framework for enhancing LLM reliability in high-stakes applications.},
+  preview={decompose.jpg},
+  selected={false},
+}
+
+
+
+
 @article{da2024llm,
   bibtex_show={true},
   title={LLM Uncertainty Quantification through Directional Entailment Graph and Claim Level Response Augmentation},

@@ -48,7 +48,20 @@ My research roadmap is as shown:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
 
-      <div>[2024-09]</div>
+
+    <div>[2025-02]</div>
+    <div>Received the SDM Travel Award ✈️ from <a href="https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/"> SIAM </a>, and Experiential Learning Grant from <a href="https://students.engineering.asu.edu/scholarships-funding/experiential-learning-grant/"> ASU </a>, see you in Alexandria Virginia, U.S.</div>
+
+    <div>[2025-01]</div>
+    <div>Starting my internship 💼 at Honda Research Institute, San Jose, California.</div>
+
+    <div>[2025-01]</div>
+    <div>Two papers 📰 are accepted to SDM 2025 🎉🎉.</div>
+
+    <div>[2025-01]</div>
+    <div>Glad to receive the ASU Ph.D. Fellowship Award 🏆.</div>
+
+    <div>[2024-09]</div>
     <div>I have made a project page for our paper: <a href="https://arxiv.org/pdf/2410.12831"> Segment as You Wish--Free-Form Language-Based Segmentation for Medical Images </a>, please visit the link at: <a href="https://longchaoda.github.io/segmentAsYouWish.github.io/"> check out here! </a> </div>
 
 
@@ -59,31 +72,43 @@ My research roadmap is as shown:
     <div>I will serve as Session Chair at CIKM24. <br>*Room: 110A. <br>*Time: Tuesday, 11:00 - 12:45. <br>Topic FP2: Urban Systems.</div>
 
     <div>[2024-09]</div>
-    <div>One paper is accepted to NeurIPS 2024.</div>
+    <div>One paper 📰 is accepted to NeurIPS 2024.</div>
 
     <div>[2024-09]</div>
     <div>Finished my Internship at GE Healthcare <a href="https://github.com/LongchaoDa/papers/blob/main/Segment%20as%20You%20Wish%20-%20Free-Form%20Language-Based%20Segmentation%20for%20Medical%20Images.pdf"> paper </a>, thanks <a href="https://sites.google.com/view/danicaxiao/home"> Danica Xiao</a>, <a href="https://rui1521.github.io/online-cv/"> Rui Wang </a> and <a href="https://xuxiaojian.github.io/"> Xiaojian Xu </a>, I had a great time with you! </div>
 
     <div>[2024-08]</div>
-    <div>I am selected as NSF travel awardee to attend CIKM2024. See you in Boise, Idaho, USA.</div>
+    <div>I am selected as NSF travel awardee to attend CIKM2024 ✈️. See you in Boise, Idaho, USA.</div>
 
     <div>[2024-08]</div>
-    <div>One paper is accepted to ITSC 2024.</div>
+    <div>One paper 📰 is accepted to ITSC 2024.</div>
 
     <div>[2024-08]</div>
-    <div>One paper is accepted to CIKM 2024.</div>
+    <div>One paper 📰 is accepted to CIKM 2024.</div>
 
     <div>[2024-08]</div>
     <div>Invited to give a talk at <a href="https://sites.google.com/view/workshop-itsc-2024/%E9%A6%96%E9%A1%B5"> ITSC2024</a> about advanced simulation and policy learning. <a href="https://youtu.be/Le3BjhsYe2Q"> Video</a></div>
 
     <div>[2024-05]</div>
-    <div>One paper is accepted to ECML-PKDD 2024.</div>
+    <div>One paper 📰 is accepted to ECML-PKDD 2024.</div>
 
     <div>[2024-05]</div>
     <div>I was selected (30 Ph.D. students nation-wide) to attend <a href="https://ai-score.github.io/">AI-SCORE</a> at University of Maryland held by <a href="https://www.rhsmith.umd.edu/directory/michael-fu">Michael Fu - UMD</a>, <a href="https://idm-lab.org/">Sven Koenig - USC</a> and <a href="https://www.engineering.cornell.edu/faculty-directory/david-b-shmoys">David Shmoys - Cornell</a></div>
 
     <div>[2024-01]</div>
-    <div>Two first author papers are accepted to AAAI 2024.</div>
+    <div>Two first author papers 📰 are accepted to AAAI 2024.</div>
+
+    <div>[2023-11]</div>
+    <div>Our paper on <a href="https://darl-libsignal.github.io/index.html">"LibSignal"</a> is accepted to Machine Learning - Springer.</div>
+
+
+    <div>[2023-11]</div>
+    <div>Successfully hosted my first Tutorial Session 📖 <a href="https://darl-libsignal.github.io/itsc2023.html">"Cross-simulator Datasets and Evaluations for Traffic Control Policies"</a> in <a href="https://2023.ieee-itsc.org/accepted-tutorials/">IEEE-ITSC</a> 2023, Bilbao, Spain.</div>
+
+    
+    
+
+    
 
   </div>
 </div>
