@@ -48,6 +48,8 @@ My research roadmap is as shown:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
 
+    <div>[2025-03]</div>
+    <div>A poster on LibSignal++ Sim-to-Real physical testbed is accepted by ICCPS 2025 🎉.</div>
 
     <div>[2025-02]</div>
     <div>Received the SDM Travel Award ✈️ from <a href="https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/"> SIAM </a>, and Experiential Learning Grant from <a href="https://students.engineering.asu.edu/scholarships-funding/experiential-learning-grant/"> ASU </a>, see you in Alexandria Virginia, U.S.</div>
