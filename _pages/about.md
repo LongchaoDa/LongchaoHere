@@ -52,7 +52,7 @@ My research roadmap is as shown:
     <div>I will serve as a Session Chair at SDM25 - CP10: Large Language Models, see you on Friday, May 2, 3:15-5:15PM.</div>
 
     <div>[2025-04]</div>
-    <div>Our paper <a href="https://arxiv.org/pdf/2502.17026/"> `Understanding the uncertainty of llm explanations: A perspective based on reasoning topology` </a>  is accepted to workshop - <a href="https://labs.engineering.asu.edu/labv2/second-workshop-on-metacognitive-prediction-of-ai-behavior-proposed/"> MetaCog'25 </a> and <a href="https://sites.google.com/view/arrml-25/home/"> ARRML'25 </a> </div>
+    <div>Our paper <a href="https://arxiv.org/abs/2502.17026"> `Understanding the uncertainty of llm explanations: A perspective based on reasoning topology` </a>  is accepted to workshop - <a href="https://labs.engineering.asu.edu/labv2/second-workshop-on-metacognitive-prediction-of-ai-behavior-proposed/"> MetaCog'25 </a> and <a href="https://sites.google.com/view/arrml-25/home/"> ARRML'25 </a> </div>
     
 
     <div>[2025-03]</div>
