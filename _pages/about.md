@@ -49,6 +49,12 @@ My research roadmap is as shown:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
 
     <div>[2025-04]</div>
+    <div>Our paper <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
+    
+    <div>[2025-04]</div>
+    <div>Two First author papers are accepted to IJCAI 2025</div>
+    
+    <div>[2025-04]</div>
     <div>I will serve as a Session Chair at SDM25 - CP10: Large Language Models, see you on Friday, May 2, 3:15-5:15PM.</div>
 
     <div>[2025-04]</div>
