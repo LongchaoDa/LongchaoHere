@@ -6,6 +6,18 @@ description: Research community service.
 nav: true
 nav_order: 6
 ---
+2024: Program Committee Member for ACL Demo Track 2025 <br>
+
+2024: Reviewer for CVPR25 <br>
+
+2025: Reviewer at KDD2025 Benchmark and Dataset Track <br>
+
+2025: Reviewer at KDD2025 Benchmark and Dataset Track <br>
+
+2025: Serve as Program Committee Member at KDD2025 <br>
+
+2024: Reviewer for CVPR25 <br>
+
 2024: Reviewer for WACV24 <br>
 
 2024: Program Comittee for SDM24 <br>
