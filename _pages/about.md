@@ -48,6 +48,9 @@ My research roadmap is as shown:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
 
+    <div>[2025-05]</div>
+    <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum.</div>
+    
     <div>[2025-04]</div>
     <div>Our paper <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
     
