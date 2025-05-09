@@ -4,6 +4,17 @@
 @string{aps = {American Physical Society,}}
 
 
+@article{liu2025uncertainty,
+  bibtex_show={true},
+  title={Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey},
+  author={Liu, Xiaoou and Chen, Tiejin and Da, Longchao and Chen, Chacha and Lin, Zhen and Wei, Hua},
+  html={https://arxiv.org/pdf/2503.15850},
+  year={2025},
+  abbr={KDD 2025},
+  abstract={Large Language Models (LLMs) excel in text generation, reasoning, and decision-making, enabling their adoption in high-stakes domains such as healthcare, law, and transportation. However, their reliability is a major concern, as they often produce plausible but incorrect responses. Uncertainty quantification (UQ) enhances trustworthiness by estimating confidence in outputs, enabling risk mitigation and selective prediction. However, traditional UQ methods struggle with LLMs due to computational constraints and decoding inconsistencies. Moreover, LLMs introduce unique uncertainty sources, such as input ambiguity, reasoning path divergence, and decoding stochasticity, that extend beyond classical aleatoric and epistemic uncertainty. To address this, we introduce a new taxonomy that categorizes UQ methods based on computational efficiency and uncertainty dimensions (input, reasoning, parameter, and prediction uncertainty). We evaluate existing techniques, assess their real-world applicability, and identify open challenges, emphasizing the need for scalable, interpretable, and robust UQ approaches to enhance LLM reliability.},
+  selected={true},
+}
+
 
 @article{da2025understanding,
   bibtex_show={true},
@@ -93,7 +104,7 @@
   abstract={Neural networks that can produce accurate, input-conditional uncertainty representations are critical for real-world applications. Recent progress on heteroscedastic continuous regression has shown great promise for calibrated uncertainty quantification on complex tasks, like image regression. However, when these methods are applied to discrete regression tasks, such as crowd counting, ratings prediction, or inventory estimation, they tend to produce predictive distributions with numerous pathologies. We propose to address these issues by training a neural network to output the parameters of a Double Poisson distribution, which we call the Deep Double Poisson Network (DDPN). In contrast to existing methods that are trained to minimize Gaussian negative log likelihood (NLL), DDPNs produce a proper probability mass function over discrete output. Additionally, DDPNs naturally model under-, over-, and equi-dispersion, unlike networks trained with the more rigid Poisson and Negative Binomial parameterizations. We show DDPNs 1) vastly outperform existing discrete models; 2) meet or exceed the accuracy and flexibility of networks trained with Gaussian NLL; 3) produce proper predictive distributions over discrete counts; and 4) exhibit superior out-of-distribution detection. DDPNs can easily be applied to a variety of count regression datasets including tabular, image, point cloud, and text data.},
   year={2024},
   html={https://arxiv.org/abs/2406.09262},
-  abbr={pre-print},
+  abbr={ICML25},
   selected={true},
   preview={deepUncer.png},
 }
