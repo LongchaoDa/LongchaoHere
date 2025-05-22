@@ -49,10 +49,10 @@ My research roadmap is as shown:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     
     <div>[2025-05]</div>
-    <div> <a href = "https://openreview.net/forum?id=XdyvqhAcO4#discussion"A paper 📰. </a> is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
+    <div> <a href="https://openreview.net/forum?id=XdyvqhAcO4." A paper 📰. </a> is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
     
     <div>[2025-05]</div>
-    <div> My intern paper 📰 is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. </div>
+    <div> My intern paper 📰 is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. See you in <a href="https://kdd2025.kdd.org/"> Toronto </a>! </div>
 
     <div>[2025-05]</div>
     <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum.</div>
