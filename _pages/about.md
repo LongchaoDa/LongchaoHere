@@ -47,8 +47,9 @@ My research roadmap is as shown:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+    
     <div>[2025-05]</div>
-    <div> A paper is accepted to the RL Conference! </div>
+    <div> A paper is accepted to the RL Conference! See you in Alberta, Edmonton. </div>
     
     <div>[2025-05]</div>
     <div> My intern paper is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. </div>
