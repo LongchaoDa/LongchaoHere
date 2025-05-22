@@ -49,19 +49,19 @@ My research roadmap is as shown:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     
     <div>[2025-05]</div>
-    <div> A paper is accepted to the RL Conference! See you in Alberta, Edmonton. </div>
+    <div> <a href = "https://openreview.net/forum?id=XdyvqhAcO4#discussion"A paper 📰. </a> is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
     
     <div>[2025-05]</div>
-    <div> My intern paper is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. </div>
+    <div> My intern paper 📰 is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. </div>
 
     <div>[2025-05]</div>
     <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum.</div>
     
     <div>[2025-04]</div>
-    <div>Our paper <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
+    <div>Our paper 📰 <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
     
     <div>[2025-04]</div>
-    <div>Two First author papers are accepted to IJCAI 2025</div>
+    <div>Two First author papers 📰 are accepted to IJCAI 2025</div>
     
     <div>[2025-04]</div>
     <div>I will serve as a Session Chair at SDM25 - CP10: Large Language Models, see you on Friday, May 2, 3:15-5:15PM.</div>
