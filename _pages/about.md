@@ -18,9 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey there👋, I'm a Ph.D. student at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
-"AI should serve for the real world problems. --- Andrew Ng"
+
+Hey there👋, I'm a Ph.D. candidate at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
+
+<span style="color:red">I am actively seeking tenure-track assistant professor roles and applied scientist positions, happy to chat and appreciate any shared opportunities!</span>
+
+"AI should serve real-world problems. --- Andrew Ng"
 
 My research roadmap is as shown:
 
