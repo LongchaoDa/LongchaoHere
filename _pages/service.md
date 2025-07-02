@@ -10,13 +10,17 @@ nav_order: 6
 
 2025: Program Committee Member for ACL Demo Track 2025 <br>
 
-2025: Reviewer for CVPR25 <br>
+2025: Reviewer for CVPR25 <be>
 
-2025: Reviewer at KDD2025 Benchmark and Dataset Track <br>
+2025: Reviewer at IJCAI 2025<br>
 
 2025: Reviewer at KDD2025 Benchmark and Dataset Track <br>
 
 2025: Serve as Program Committee Member at KDD2025 <br>
+
+2025: Reviewer for Journal of Traffic and Transportation Engineering <br> 
+
+2024: Reviewer at Transportation Research (Part E) <br>
 
 2024: Reviewer for CVPR24 <br>
 
