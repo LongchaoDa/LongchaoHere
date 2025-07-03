@@ -9,18 +9,45 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
+  
     <p>BYENG 4th floor,</p>
     <p>699 Mill Ave.</p>
-    <p>Tempe, Arizona.</p>
+    <p>699 Mill Ave. Tempe, AZ.</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+<style>
+.avatar-container {
+  position: relative;
+  display: inline-block;
+  width: 240px; /* 调整成实际渲染的头像宽度 */
+}
+.avatar-container .avatar-bg {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding-top: 40%;  /* 控制背景图高度，可微调 */
+  background: url("/LongchaoHere/assets/img/experience.png") no-repeat center/contain;
+  z-index: 0;
+}
+.avatar-container .avatar-img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  /* 如果你之前是圆角就保留 rounded-circle，否则可以删 */
+  border-radius: 8px;
+  z-index: 1;
+}
+</style>
 
 
 
-Hey there👋, I'm a Ph.D. candidate at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://www.public.asu.edu/~hwei27/index.html). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
+Hey there👋, I'm a Ph.D. candidate at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
 <span style="color:red">I am actively seeking tenure-track assistant professor roles and applied scientist positions, happy to chat and appreciate any shared opportunities!</span>
 
@@ -51,15 +78,18 @@ My research roadmap is as shown:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
-    
-    <div>[2025-05]</div>
-    <div> <a href="https://openreview.net/forum?id=XdyvqhAcO4." A paper 📰. </a> is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
-    
-    <div>[2025-05]</div>
-    <div> My intern paper 📰 is accepted to KDD25, work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. See you in <a href="https://kdd2025.kdd.org/"> Toronto </a>! </div>
 
     <div>[2025-05]</div>
-    <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum.</div>
+    <div> Glad to receive the nomination for Google Fellowship 2025. </div>
+    
+    <div>[2025-05]</div>
+    <div> A paper 📰 is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
+    
+    <div>[2025-05]</div>
+    <div> My intern <a href="https://arxiv.org/pdf/2410.12831"> paper </a> 📰 is accepted to KDD25, (<a href="https://longchaoda.github.io/segmentAsYouWish.github.io/">website</a>) work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. See you in <a href="https://kdd2025.kdd.org/"> Toronto </a>! </div>
+
+    <div>[2025-05]</div>
+    <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum. Appreciate the guidance from Dr.Wei and Review Committees.</div>
     
     <div>[2025-04]</div>
     <div>Our paper 📰 <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
@@ -88,10 +118,6 @@ My research roadmap is as shown:
 
     <div>[2025-01]</div>
     <div>Glad to receive the ASU Ph.D. Fellowship Award 🏆.</div>
-
-    <div>[2024-09]</div>
-    <div>I have made a project page for our paper: <a href="https://arxiv.org/pdf/2410.12831"> Segment as You Wish--Free-Form Language-Based Segmentation for Medical Images </a>, please visit the link at: <a href="https://longchaoda.github.io/segmentAsYouWish.github.io/"> check out here! </a> </div>
-
 
     <div>[2024-10]</div>
     <div>I am invited to join Program Committee at SDM 2025.</div>
