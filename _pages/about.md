@@ -9,7 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-  
+
     <p>BYENG 4th floor,</p>
     <p>699 Mill Ave.</p>
     <p>699 Mill Ave. Tempe, AZ.</p>
@@ -18,6 +18,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
 <style>
 .avatar-container {
   position: relative;
@@ -44,8 +45,6 @@ social: true # includes social icons at the bottom of the page
   z-index: 1;
 }
 </style>
-
-
 
 Hey there👋, I'm a Ph.D. candidate at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
@@ -81,28 +80,28 @@ My research roadmap is as shown:
 
     <div>[2025-05]</div>
     <div> Glad to receive the nomination for Google Fellowship 2025. </div>
-    
+
     <div>[2025-05]</div>
     <div> A paper 📰 is accepted to the <a href="https://rl-conference.cc/"> RL Conference 2025 </a>! See you in Alberta, Edmonton. </div>
-    
+
     <div>[2025-05]</div>
     <div> My intern <a href="https://arxiv.org/pdf/2410.12831"> paper </a> 📰 is accepted to KDD25, (<a href="https://longchaoda.github.io/segmentAsYouWish.github.io/">website</a>) work done at GE-Healthcare in 2024 Summer. `Segment as You Wish–Free-Form Language-Based Segmentation for Medical Images`. See you in <a href="https://kdd2025.kdd.org/"> Toronto </a>! </div>
 
     <div>[2025-05]</div>
     <div>I am thrilled to receive the <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326347467447238656/"> Best Poster Award 🏆 </a> `at SDM 2025 Doctoral Forum. Appreciate the guidance from Dr.Wei and Review Committees.</div>
-    
+
     <div>[2025-04]</div>
-    <div>Our paper 📰 <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div> 
-    
+    <div>Our paper 📰 <a href="[https://arxiv.org/abs/2502.17026](https://arxiv.org/abs/2406.09262)"> `Flexible Heteroscedastic Count Regression with Deep Double Poisson Networks` </a>  is accepted to ICML 2025</div>
+
     <div>[2025-04]</div>
     <div>Two First author papers 📰 are accepted to IJCAI 2025</div>
-    
+
     <div>[2025-04]</div>
     <div>I will serve as a Session Chair at SDM25 - CP10: Large Language Models, see you on Friday, May 2, 3:15-5:15PM.</div>
 
     <div>[2025-04]</div>
     <div>Our paper <a href="https://arxiv.org/abs/2502.17026"> `Understanding the uncertainty of llm explanations: A perspective based on reasoning topology` </a>  is accepted to workshop - <a href="https://labs.engineering.asu.edu/labv2/second-workshop-on-metacognitive-prediction-of-ai-behavior-proposed/"> MetaCog'25 </a> and <a href="https://sites.google.com/view/arrml-25/home/"> ARRML'25 </a> </div>
-    
+
 
     <div>[2025-03]</div>
     <div>A poster on <a href="https://dl.acm.org/doi/10.1145/3716550.3725161"> LibSignal++ Sim-to-Real physical testbed </a> is accepted by ICCPS 2025 🎉.</div>
@@ -158,11 +157,6 @@ My research roadmap is as shown:
 
     <div>[2023-11]</div>
     <div>Successfully hosted my first Tutorial Session 📖 <a href="https://darl-libsignal.github.io/itsc2023.html">"Cross-simulator Datasets and Evaluations for Traffic Control Policies"</a> in <a href="https://2023.ieee-itsc.org/accepted-tutorials/">IEEE-ITSC</a> 2023, Bilbao, Spain.</div>
-
-    
-    
-
-    
 
   </div>
 </div>

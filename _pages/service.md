@@ -6,6 +6,7 @@ description: Research community service.
 nav: true
 nav_order: 6
 ---
+
 2025: Reviewer for Artificial Intelligence (Spring Nature)
 
 2025: Program Committee Member for ACL Demo Track 2025 <br>
@@ -18,7 +19,7 @@ nav_order: 6
 
 2025: Serve as Program Committee Member at KDD2025 <br>
 
-2025: Reviewer for Journal of Traffic and Transportation Engineering <br> 
+2025: Reviewer for Journal of Traffic and Transportation Engineering <br>
 
 2024: Reviewer at Transportation Research (Part E) <br>
 
@@ -39,8 +40,6 @@ nav_order: 6
 2023: Host the Tutorial in IEEE-ITSC - Bilbao, Spain, 2023.<br>
 
 2022: Serving as a Peer Reviewer at NurIPS 2022.<br>
-
-
 
 <!-- ---
 I have been cooperating with students and helping them with their success. Some outstanding students are:
