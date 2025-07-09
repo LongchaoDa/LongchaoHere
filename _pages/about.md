@@ -82,7 +82,10 @@ My research roadmap is as shown:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
 
-    <div>[2025-05]</div>
+    <div>[2025-07]</div>
+    <div> A paper on Uncertainty Quantification of LLM Explanations is accepted to COLM2025. </div>
+
+    <div>[2025-06]</div>
     <div> Glad to receive the nomination for Google Fellowship 2025. </div>
 
     <div>[2025-05]</div>
