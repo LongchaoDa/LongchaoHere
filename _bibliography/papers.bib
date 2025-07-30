@@ -3,28 +3,6 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{da2025generatingshade,
-  bibtex_show={false},
-  title={DeepShade: Enable Shade Simulation by Text-conditioned Image Generation},
-  author={Da, Longchao and Liu, Xiangrui and Shivakoti, Mithun and Kutralingam, Thirulogasankar and Yang, Yezhou and Wei, Hua},
-  year={2025},
-  abbr={IJCAI25},
-  preview={ShadeProject.jpg},
-  abstract={Heatwaves pose a significant threat to public health, especially as global warming intensifies. However, current routing systems (e.g., online maps) fail to incorporate shade information due to the difficulty of estimating shades directly from noisy satellite imagery and the limited availability of training data for generative models. In this paper, we address these challenges through two main contributions. First, we build an extensive dataset covering diverse longitude-latitude regions, varying levels of building density, and different urban layouts. Leveraging Blender-based 3D simulations alongside building outlines, we capture building shadows under various solar zenith angles throughout the year and at different times of day. These simulated shadows are aligned with satellite images, providing a rich resource for learning shade patterns. Second, we propose the DeepShade, a diffusion-based model designed to learn and synthesize shade variations over time. It innovatively emphasizes the nuance of edge features by applying a learned fusion module to two visual conditions (base map and edge map), and incorporates contrastive learning to learn the temporal change rules of shade. Then, by conditioning on textual descriptions of known conditions (e.g., time of day, solar angles), our framework provides improved performance in generating shade images. We demonstrate the utility of our approach by using our shade predictions to calculate shade ratios for real-world route planning in Tempe, Arizona.  We believe this work will benefit society by providing a reference for urban planning in the extreme heat weather, and its potential practical applications in the environment.},
-  selected={true},
-}
-
-@article{da2025ge,
-  bibtex_show={true},
-  title={GE-Chat: A Graph Enhanced RAG Framework for Evidential Response Generation of LLMs},
-  author={Da, Longchao and Shah, Parth Mitesh and Liou, Kuan-Ru and Zhang, Jiaxing and Wei, Hua},
-  html={https://arxiv.org/pdf/2505.10143},
-  year={2025},
-  abbr={IJCAI25},
-  preview={GEchat.jpg},
-  abstract={Large Language Models are now key assistants in human decision-making processes. However, a common note always seems to follow: "LLMs can make mistakes. Be careful with important info." This points to the reality that not all outputs from LLMs are dependable, and users must evaluate them manually. The challenge deepens as hallucinated responses, often presented with seemingly plausible explanations, create complications and raise trust issues among users. To tackle such issue, this paper proposes GE-Chat, a knowledge Graph enhanced retrieval-augmented generation framework to provide Evidence-based response generation. Specifically, when the user uploads a material document, a knowledge graph will be created, which helps construct a retrieval-augmented agent, enhancing the agent's responses with additional knowledge beyond its training corpus. Then we leverage Chain-of-Thought (CoT) logic generation, n-hop sub-graph searching, and entailment-based sentence generation to realize accurate evidence retrieval. We demonstrate that our method improves the existing models' performance in terms of identifying the exact evidence in a free-form context, providing a reliable way to examine the resources of LLM's conclusion and help with the judgment of the trustworthiness.},
-  selected={true},
-}
 
 @article{liu2025uncertainty,
   bibtex_show={true},
