@@ -81,7 +81,10 @@ My research roadmap is as shown:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
-
+    
+    <div>[2025-07]</div>
+    <div> Our research is featured on the <a href="https://fullcircle.asu.edu/features/chasing-shadows/"> ASU news </a>. </div>
+    
     <div>[2025-07]</div>
     <div> A paper on Uncertainty Quantification of LLM Explanations is accepted to COLM2025. </div>
 
