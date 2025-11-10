@@ -82,6 +82,15 @@ My research roadmap is as shown:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     
+    <div>[2025-11]</div>
+    <div> My internship paper at Honda Research - Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving is accepted to AAAI2026. </div>
+
+    <div>[2025-07]</div>
+    <div> We are hosting a tutorial at ICDM'25, visit website <a href="https://darl-genai.github.io/ICDM-UQ-LLM-Tutorial/"> at here </a>. </div>
+    
+    <div>[2025-11]</div>
+    <div> Deepshade, which uses Diffusion Models for shade simulation, is reported by <a href="https://www.kjzz.org/the-show/2025-10-27/can-ai-help-arizonans-find-the-shadiest-route-to-keep-cool-this-asu-professor-thinks-so"> Arizona News </a>. </div>
+    
     <div>[2025-07]</div>
     <div> Our research is featured on the <a href="https://fullcircle.asu.edu/features/chasing-shadows/"> ASU news </a>. </div>
     
