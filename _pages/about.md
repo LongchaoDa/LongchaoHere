@@ -90,6 +90,10 @@ My research roadmap is as shown:
     
     <div>[2025-11]</div>
     <div> Deepshade, which uses Diffusion Models for shade simulation, is reported by <a href="https://www.kjzz.org/the-show/2025-10-27/can-ai-help-arizonans-find-the-shadiest-route-to-keep-cool-this-asu-professor-thinks-so"> Arizona News </a>. </div>
+
+    <div>[2025-10]</div>
+    <div> I am happy to be invited by Meta to attend the Ph.D. forum and visit the Headquarters in Menlo Park. Thanks for the host!</div>
+    
     
     <div>[2025-07]</div>
     <div> Our research is featured on the <a href="https://fullcircle.asu.edu/features/chasing-shadows/"> ASU news </a>. </div>
