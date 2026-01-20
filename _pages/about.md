@@ -83,7 +83,7 @@ My research roadmap is as shown:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     
     <div>[2025-11]</div>
-    <div> My internship paper at Honda Research - Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving is accepted to AAAI2026. </div>
+    <div> My internship paper at Honda Research - <a href="https://arxiv.org/pdf/2512.12211"> Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving is accepted to AAAI2026. </a> </div>
 
     <div>[2025-11]</div>
     <div> We are hosting a tutorial at ICDM'25, visit website <a href="https://darl-genai.github.io/ICDM-UQ-LLM-Tutorial/"> at here </a>. </div>
