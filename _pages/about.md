@@ -81,6 +81,9 @@ My research roadmap is as shown:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+
+    <div>[2026-01]</div>
+    <div> Happy to share that my first author paper: "Latent Adaptation of Foundation Policies for Sim-to-Real Transfer" is accepted to ICLR'2026. </div>
     
     <div>[2025-11]</div>
     <div> My internship paper at Honda Research - <a href="https://arxiv.org/pdf/2512.12211"> Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving is accepted to AAAI2026. </a> </div>
