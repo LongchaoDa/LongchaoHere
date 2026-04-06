@@ -36,7 +36,7 @@ social: true # includes social icons at the bottom of the page
   transform: translateX(-50%);
   width: 100%;
   padding-top: 40%;  /* 控制背景图高度，可微调 */
-  background: url("/LongchaoHere/assets/img/experience.png") no-repeat center/contain;
+  background: url("/LongchaoHere/assets/img/travelCool.png") no-repeat center/contain;
   z-index: 0;
 }
 .avatar-container .avatar-img {
@@ -50,13 +50,13 @@ social: true # includes social icons at the bottom of the page
 }
 </style>
 
-Hey there👋, I'm a Ph.D. candidate at the Computer Science Department, Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
+Hey there👋, I received my Ph.D. degree in Computer Science from Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
-<span style="color:red">I am actively seeking tenure-track assistant professor roles and applied scientist positions, happy to chat and appreciate any shared opportunities!</span>
+<!-- <span style="color:red">I am actively seeking tenure-track assistant professor roles and applied scientist positions, happy to chat and appreciate any shared opportunities!</span> -->
 
 "AI should serve real-world problems. --- Andrew Ng"
 
-My research roadmap is as shown:
+My research roadmap is as follows:
 
 <img src="assets/img/roadmap.jpg" alt="Roadmap" style="display: block; margin: 0 auto; width: 50%;">
 
@@ -81,9 +81,15 @@ My research roadmap is as shown:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+    
+    <div>[2026-04]</div>
+    <div> Our paper: "<a href="https://arxiv.org/abs/2502.16820"> Uncertainty Quantification of Large Language Models through Multiple Uncertainty Sources  </a>" is accepted to ACL'2026 Findings. </div>
+
+    <div>[2026-04]</div>
+    <div> I defended my Ph.D. dissertation! </div>
 
     <div>[2026-01]</div>
-    <div> Happy to share that my first author paper: "Latent Adaptation of Foundation Policies for Sim-to-Real Transfer" is accepted to ICLR'2026. </div>
+    <div> Happy to share that my first author paper: "<a href="https://openreview.net/pdf?id=yn9dzttHvT"> Latent Adaptation of Foundation Policies for Sim-to-Real Transfer </a>" is accepted to ICLR'2026. </div>
     
     <div>[2025-11]</div>
     <div> My internship paper at Honda Research - <a href="https://arxiv.org/pdf/2512.12211"> Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving is accepted to AAAI2026. </a> </div>
