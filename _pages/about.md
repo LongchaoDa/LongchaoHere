@@ -6,7 +6,7 @@ subtitle: <a href='https://www.asu.edu/'>Affiliations</a>. Arizona State Univers
 
 profile:
   align: right
-  image: prof_pic.png
+  image: travelCool.png
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -36,7 +36,7 @@ social: true # includes social icons at the bottom of the page
   transform: translateX(-50%);
   width: 100%;
   padding-top: 40%;  /* 控制背景图高度，可微调 */
-  background: url("/LongchaoHere/assets/img/travelCool.png") no-repeat center/contain;
+  background: url("/LongchaoHere/assets/img/experience.png") no-repeat center/contain;
   z-index: 0;
 }
 .avatar-container .avatar-img {
