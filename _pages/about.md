@@ -83,6 +83,10 @@ My research roadmap is as follows:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     
     <div>[2026-04]</div>
+    <div> Glad to receive the award as "Outstanding Graduating CS PhD Student" at SCAI, ASU! </div>
+  
+    
+    <div>[2026-04]</div>
     <div> Our paper: "<a href="https://arxiv.org/abs/2502.16820"> Uncertainty Quantification of Large Language Models through Multiple Uncertainty Sources  </a>" is accepted to ACL'2026 Findings. </div>
 
     <div>[2026-04]</div>
