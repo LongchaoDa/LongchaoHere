@@ -21,7 +21,7 @@
       "area": "Computer Science",
       "studyType": "Ph.D.",
       "startDate": "2023-07-31",
-      "endDate": "Now"
+      "endDate": "2026-05-11"
     },
     {
       "institution": "New Jersey Institute of Technology",
@@ -34,6 +34,13 @@
     }
   ],
   "work": [
+    {
+      "name": "Microsoft, USA.",
+      "position": "Applied Scientist Intern",
+      "startDate": "2025-05-10",
+      "endDate": "2025-08-16",
+      "summary": "Efficient Reasoning of Pre-trained Language Models."
+    },
     {
       "name": "Honda Research Institute, USA.",
       "position": "Research Associate Intern",
@@ -64,6 +71,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "Outstanding Graduating CS PhD Student",
+      "date": "2026-04-14",
+      "awarder": "School of Computing and Augmented Intelligence, ASU",
+      "summary": "A testament to exceptional scholarship and contributions to the program."
+    },
     {
       "title": "SDM Travel Award",
       "date": "2025-02-10",
