@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{dalatent,
+  bibtex_show={true},
+  title={Latent Adaptation of Foundation Policies for Sim-to-Real Transfer},
+  author={Da, Longchao and Kutralingam, T Pranav and Xiang, Lirong and Wei, Hua},
+  year={2026},
+  html={https://openreview.net/pdf?id=yn9dzttHvT},
+  abbr={ICLR26},
+  abstract={The sim-to-real problem remains a critical challenge in the real-world application of reinforcement learning (RL). The conventional sim-to-real methods heavily rely on resource-intensive re-training of the policy network to adapt to new domains, which limits the flexibility of the deployment of RL policies in ever-changing environments. Inspired by human locomotion, where individuals adjust their gait to new surface conditions without relearning the skill of walking, we introduce Latent Adaptation of Foundation Policies (Found-adapt), a framework that decouples this problem into skill acquisition and environment adaptation. Our method first pretrains a foundation policy on unlabeled offline trajectories from the source simulator, capturing diverse long-horizon behaviors as reusable skills. At deployment, instead of retraining the policy, we perform efficient latent space adaptation: a small amount of target-domain data is collected to refine a latent representation through an adapter network that incorporates parameter efficient alignment, which produces a task-ready controller under various system dynamics. This adaptation occurs entirely in the latent space, avoiding costly policy optimization while enabling robust transfer. Empirical results across multiple locomotion tasks and dynamic variations demonstrate that our method significantly reduces the sim-to-real gap. Further sensitivity analysis provides interesting insights into the requirements for data quality and applicable situations. These findings highlight how foundation policies with latent adaptation could serve as a general and efficient paradigm for real-world RL deployment.},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  preview={iclr26.jpg},
+  selected={true},
+}
+
+
 @article{longchao,
   bibtex_show={false},
   title={Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving},
