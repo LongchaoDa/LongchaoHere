@@ -81,6 +81,13 @@ My research roadmap is as follows:
 <div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+ 
+    <div>[2026-05]</div>
+    <div> Our paper is accepted to ICML'26! </div>
+
+    <div>[2026-05]</div>
+    <div> Our tutorial is accepted to ITSC'26! </div>
+  
     
     <div>[2026-04]</div>
     <div> Glad to receive the award as "Outstanding Graduating CS PhD Student" at SCAI, ASU! </div>
