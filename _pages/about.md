@@ -83,10 +83,10 @@ My research roadmap is as follows:
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
  
     <div>[2026-05]</div>
-    <div> Our paper is accepted to ICML'26! </div>
+    <div> Our paper is accepted to ICML'26! See you in Seoul, South Korea 🇰🇷. </div>
 
     <div>[2026-05]</div>
-    <div> Our tutorial is accepted to ITSC'26! </div>
+    <div> Our tutorial is accepted to ITSC'26! See you in Naples, Italy 🇮🇹. </div>
   
     
     <div>[2026-04]</div>
