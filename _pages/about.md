@@ -82,7 +82,7 @@ My research roadmap is as follows:
   <p><strong>Recent News:</strong></p>
   <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
     <div>[2026-05]</div>
-    <div> A paper: "<a href="https://arxiv.org/abs/2502.16820"> ShadeBench: A Benchmark Dataset for Building Shade Simulation in Sustainable Society </a>" is accepted to KDD'26. See you in Jeju, South Korea 🇰🇷. Check out the <a href="https://darl-genai.github.io/shadebench/" > website</a>! </div>
+    <div> A paper: "<a href="http://arxiv.org/abs/2605.20510"> ShadeBench: A Benchmark Dataset for Building Shade Simulation in Sustainable Society </a>" is accepted to KDD'26. See you in Jeju, South Korea 🇰🇷. Check out the <a href="https://darl-genai.github.io/shadebench/" > website</a>! </div>
  
     <div>[2026-05]</div>
     <div> Our paper is accepted to ICML'26! See you in Seoul, South Korea 🇰🇷. </div>
