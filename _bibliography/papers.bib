@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@inproceedings{icmlposition,
+  bibtex_show={true},
+  title={Position: Uncertainty Quantification in LLMs is Just Unsupervised Clustering},
+  author={Chen, Tiejin and Da, Longchao and Liu, Xiaoou and Wei, Hua},
+  year={2026},
+  html={https://arxiv.org/pdf/2605.19220},
+  abbr={ICML26},
+  abstract={Uncertainty Quantification (UQ) is widely regarded as the primary safeguard for deploying Large Language Models (LLMs) in high-stakes domains. However, \textbf{we argue that the field suffers from a category error: prevailing UQ methods are just unsupervised clustering algorithms.} We demonstrate that most current approaches inherently quantify the internal consistency of the model's generations rather than their external correctness. Consequently, current methods are fundamentally blind to factual reality and fail to detect ``confident hallucinations,'' where models exhibit high confidence in stable but incorrect answers. Therefore, the current UQ methods may create a deceptive sense of safety when deploying the models with uncertainty. In detail, we identify three critical pathologies resulting from this dependence on internal state: a hyperparameter sensitivity crisis that renders deployment unsafe, an internal evaluation cycle that conflates stability with truth, and a fundamental lack of ground truth that forces reliance on unstable proxy metrics to evaluate uncertainty. To resolve this impasse, we advocate for a paradigm shift to UQ and outline a roadmap for the research community to adopt better evaluation metrics and settings, implement mechanism changes for native uncertainty, and anchor verification in objective truth, ensuring that model confidence serves as a reliable proxy for reality.},
+  booktitle={The Forty-Third International Conference on Machine Learning, Position Track},
+  preview={positionicml26.png},
+  selected={true},
+}
+
 @inproceedings{dalatent,
   bibtex_show={true},
   title={Latent Adaptation of Foundation Policies for Sim-to-Real Transfer},
