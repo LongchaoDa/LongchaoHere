@@ -27,7 +27,7 @@ social: true # includes social icons at the bottom of the page
 .avatar-container {
   position: relative;
   display: inline-block;
-  width: 240px; /* 调整成实际渲染的头像宽度 */
+  width: min(240px, 100%); /* 调整成实际渲染的头像宽度 */
 }
 .avatar-container .avatar-bg {
   position: absolute;
@@ -48,6 +48,145 @@ social: true # includes social icons at the bottom of the page
   border-radius: 8px;
   z-index: 1;
 }
+
+.about-roadmap {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 50%;
+}
+
+.about-dashboard {
+  align-items: flex-start;
+  clear: both;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 20px 0 2rem;
+}
+
+.about-news-panel {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  flex: 1 1 0;
+  height: 300px;
+  max-width: 65%;
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.about-news-grid {
+  display: grid;
+  gap: 0.35rem 0.75rem;
+  grid-template-columns: max-content minmax(0, 1fr);
+}
+
+.about-news-grid a {
+  overflow-wrap: anywhere;
+}
+
+.about-news-grid > div:nth-child(odd) {
+  white-space: nowrap;
+}
+
+#clustrmaps-container {
+  box-sizing: border-box;
+  flex: 0 1 300px;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#clustrmaps-container iframe,
+#clustrmaps-container img,
+#clustrmaps-container canvas,
+#clustrmaps-container object {
+  max-width: 100% !important;
+}
+
+#clustrmaps-container p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .post-header .post-title {
+    font-size: clamp(2.6rem, 14vw, 4rem);
+    line-height: 1.05;
+  }
+
+  .post-header .desc {
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .profile.float-left,
+  .profile.float-right {
+    float: none !important;
+    margin: 0 0 1.5rem;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .profile .more-info p {
+    display: block;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .avatar-container {
+    margin-bottom: 3.5rem;
+    width: min(280px, 100%);
+  }
+
+  .avatar-container .avatar-bg {
+    bottom: -52px;
+  }
+
+  .about-roadmap {
+    width: 100%;
+  }
+
+  .about-dashboard {
+    display: block;
+    margin: 1rem 0 2rem;
+  }
+
+  .about-news-panel {
+    height: 320px;
+    margin-bottom: 1.5rem;
+    max-width: none;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .about-news-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-news-grid > div:nth-child(odd) {
+    font-weight: 600;
+    margin-top: 0.85rem;
+  }
+
+  .about-news-grid > div:first-child {
+    margin-top: 0;
+  }
+
+  #clustrmaps-container {
+    flex-basis: auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 </style>
 
 Hey there👋, I received my Ph.D. degree in Computer Science from Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
@@ -58,7 +197,7 @@ Hey there👋, I received my Ph.D. degree in Computer Science from Arizona State
 
 My research roadmap is as follows:
 
-<img src="assets/img/roadmap.jpg" alt="Roadmap" style="display: block; margin: 0 auto; width: 50%;">
+<img src="assets/img/roadmap.jpg" alt="Roadmap" class="about-roadmap">
 
 <br> I have been working on Foundation Models & LLM Trustworthiness from two aspects: solving bottleneck (BN) problems and generalize to real applications (Apply). <br>
 
@@ -77,10 +216,10 @@ My research roadmap is as follows:
 <!-- <br> -->
 <!-- <br> -->
 
-<!-- <div style="width: 570px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto;"> -->
-<div style="max-width: 65%; height: 300px; padding: 15px; border: 1px solid #ccc; margin: 20px auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); float: left; overflow-y: auto">
+<div class="about-dashboard">
+<div class="about-news-panel">
   <p><strong>Recent News:</strong></p>
-  <div style="display: grid; grid-template-columns: 70px auto; grid-gap: 5px;">
+  <div class="about-news-grid">
     <div>[2026-05]</div>
     <div> A paper: "<a href="http://arxiv.org/abs/2605.20510"> ShadeBench: A Benchmark Dataset for Building Shade Simulation in Sustainable Society </a>" is accepted to KDD'26. See you in Jeju, South Korea 🇰🇷. Check out the <a href="https://darl-genai.github.io/shadebench/" > website</a>! </div>
  
@@ -203,14 +342,10 @@ My research roadmap is as follows:
   </div>
 </div>
 
-<br>
-<br>
-
-<body>
-  <div id="clustrmaps-container" style="width: 275px; height: 300px; overflow: hidden; float: right;">
+  <div id="clustrmaps-container">
     <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=f7XCCDBy6e2xZcUt7nrq9L-5IhotWsRN7V4Tk1tpy7c&co=bfdbef"></script>
-   <p style="font-family: 'Courier New', Courier, monospace; font-size: 16px; margin-top: 10px; font-weight: bold;">
+   <p>
     Visitors Distribution
   </p>
   </div>
-</body>
+</div>
