@@ -189,7 +189,7 @@ social: true # includes social icons at the bottom of the page
 }
 </style>
 
-Hey there👋, I received my Ph.D. degree in Computer Science from Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
+Hey there👋, I am an Applied and Data Scientist at Microsoft. I received my Ph.D. degree in Computer Science from Arizona State University under the supervision of [Professor. Hua Wei](https://search.asu.edu/profile/3095662) at [Data Mining and Reinforcement Learning (DaRL) Lab](https://labs.engineering.asu.edu/hw/). Generally, I'm dedicated to the study of LLMs, Reinforcement Learning, Data Mining, and Trustworthy Policy Evaluation & Deployment.
 
 <!-- <span style="color:red">I am actively seeking tenure-track assistant professor roles and applied scientist positions, happy to chat and appreciate any shared opportunities!</span> -->
 
