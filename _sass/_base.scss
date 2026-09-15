@@ -444,6 +444,12 @@ footer.fixed-bottom {
       text-decoration: none;
     }
   }
+
+  .last-edit {
+    display: block;
+    font-size: 0.68rem;
+    opacity: 0.78;
+  }
 }
 
 footer.sticky-bottom {
@@ -454,6 +460,12 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+
+  .last-edit {
+    display: block;
+    font-size: 0.78rem;
+    opacity: 0.78;
   }
 }
 
