@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="300" viewBox="0 0 275 300" role="img" aria-labelledby="title desc">
+  <title id="title">Visitors distribution map fallback</title>
+  <desc id="desc">A world map with visitor dots shown when the live visitor map cannot load.</desc>
+  <rect width="275" height="300" fill="#bfdbef"/>
+  <g fill="#fff" opacity="0.92">
+    <path d="M31 74c11-12 27-19 47-17l17 5-2 13 12 10-5 15 11 14-5 16-18 2-7 18-20 1-9-14-14-5-4-18-16-7 6-17-9-7z"/>
+    <path d="M88 141l15 13 6 22-9 29-12 22-17-13-3-23-13-18 9-17 15-5z"/>
+    <path d="M121 60l25-8 20 10 17-7 21 11-5 15 15 6-10 16-22-2-14 11-20-5-12 8-18-10 6-15-14-12z"/>
+    <path d="M154 116l18-5 19 10 21-2 11 13-14 15 10 17-11 18-24-5-9-17-21-4-7-19z"/>
+    <path d="M211 98l24-2 18 10 11 18-8 15-20-2-15 11-16-13 8-16z"/>
+    <path d="M227 197l22 8 10 18-11 14-23-2-12-15 5-16z"/>
+    <path d="M143 199l14 17-2 24-12 28-14-14-3-23 8-20z"/>
+    <path d="M40 40l20-11 25 3 9 12-22 8-24 2z" opacity="0.65"/>
+    <path d="M171 37l30-10 27 7 5 11-28 8-28-2z" opacity="0.65"/>
+  </g>
+  <g fill="none" stroke="#dcecf7" stroke-linecap="round" stroke-width="2" opacity="0.85">
+    <path d="M11 66c67 17 138 17 253 0"/>
+    <path d="M17 231c78-21 154-20 236-1"/>
+    <path d="M136 16v268"/>
+    <path d="M67 25c17 82 17 164 0 246"/>
+    <path d="M207 25c-17 82-17 164 0 246"/>
+  </g>
+  <g fill="#ff3730" stroke="#fff" stroke-width="1.4">
+    <circle cx="72" cy="121" r="3.6"/>
+    <circle cx="79" cy="126" r="3.1"/>
+    <circle cx="85" cy="119" r="2.8"/>
+    <circle cx="92" cy="124" r="3"/>
+    <circle cx="96" cy="116" r="2.6"/>
+    <circle cx="101" cy="122" r="2.5"/>
+    <circle cx="64" cy="112" r="2.8"/>
+    <circle cx="69" cy="102" r="2.6"/>
+    <circle cx="84" cy="99" r="2.9"/>
+    <circle cx="95" cy="105" r="3.1"/>
+    <circle cx="157" cy="92" r="2.8"/>
+    <circle cx="165" cy="101" r="3.3"/>
+    <circle cx="177" cy="96" r="2.8"/>
+    <circle cx="206" cy="131" r="3.1"/>
+    <circle cx="225" cy="126" r="2.8"/>
+    <circle cx="238" cy="117" r="3.6"/>
+    <circle cx="247" cy="132" r="2.8"/>
+    <circle cx="232" cy="146" r="3.2"/>
+    <circle cx="255" cy="207" r="4.8" opacity="0.75"/>
+    <circle cx="170" cy="139" r="3.2" opacity="0.8"/>
+  </g>
+  <circle cx="80" cy="116" r="6.8" fill="#f59e0b" stroke="#fff" stroke-width="1.6"/>
+  <g filter="url(#shadow)">
+    <rect x="11" y="225" width="28" height="58" rx="2" fill="#fff" opacity="0.92"/>
+    <path d="M18 244h14M25 237v14" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 265h14" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <path d="M11 254h28" stroke="#d1d5db"/>
+  </g>
+  <defs>
+    <filter id="shadow" x="5" y="220" width="40" height="70" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+  </defs>
+</svg>
