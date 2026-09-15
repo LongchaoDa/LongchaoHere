@@ -109,6 +109,40 @@ social: true # includes social icons at the bottom of the page
   max-width: 100%;
 }
 
+.visitor-map-fallback,
+.visitor-map-unavailable {
+  height: 100%;
+  width: 100%;
+}
+
+.visitor-map-fallback[hidden],
+.visitor-map-unavailable[hidden] {
+  display: none !important;
+}
+
+.visitor-map-fallback {
+  display: block;
+}
+
+.visitor-map-fallback-img {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.visitor-map-unavailable {
+  align-items: center;
+  background: #bfdbef;
+  color: #555;
+  display: flex;
+  font-size: 0.85rem;
+  justify-content: center;
+  line-height: 1.3;
+  padding: 1rem;
+}
+
 .visitor-map-title {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
@@ -360,6 +394,69 @@ My research roadmap is as follows:
   <div id="clustrmaps-container">
     <div class="visitor-map-frame">
       <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=f7XCCDBy6e2xZcUt7nrq9L-5IhotWsRN7V4Tk1tpy7c&co=bfdbef"></script>
+      <a class="visitor-map-fallback" href="https://www.clustrmaps.com" aria-label="Visitors distribution map" hidden>
+        <img class="visitor-map-fallback-img" alt="Visitors distribution map" data-src="{{ '/assets/img/visitor-map-fallback.svg' | relative_url }}?v=20260915">
+      </a>
+      <div class="visitor-map-unavailable" hidden>Visitor map temporarily unavailable.</div>
+      <script>
+        (function () {
+          var frame = document.querySelector(".visitor-map-frame");
+          if (!frame) {
+            return;
+          }
+
+          function hasGeneratedMap() {
+            return frame.querySelector("iframe, canvas, object, svg, img:not(.visitor-map-fallback-img)");
+          }
+
+          function showFallback() {
+            if (hasGeneratedMap()) {
+              return;
+            }
+
+            var fallback = frame.querySelector(".visitor-map-fallback");
+            var fallbackImage = frame.querySelector(".visitor-map-fallback-img");
+            var unavailable = frame.querySelector(".visitor-map-unavailable");
+            if (!fallback || !fallbackImage) {
+              return;
+            }
+
+            fallbackImage.onerror = function () {
+              fallback.hidden = true;
+              if (unavailable) {
+                unavailable.hidden = false;
+              }
+            };
+            fallbackImage.src = fallbackImage.dataset.src;
+            fallback.hidden = false;
+
+            window.setTimeout(function () {
+              if (!fallbackImage.complete || fallbackImage.naturalWidth === 0) {
+                fallbackImage.onerror();
+              }
+            }, 4000);
+          }
+
+          if ("MutationObserver" in window) {
+            var observer = new MutationObserver(function () {
+              if (hasGeneratedMap()) {
+                var fallback = frame.querySelector(".visitor-map-fallback");
+                var unavailable = frame.querySelector(".visitor-map-unavailable");
+                if (fallback) {
+                  fallback.hidden = true;
+                }
+                if (unavailable) {
+                  unavailable.hidden = true;
+                }
+                observer.disconnect();
+              }
+            });
+            observer.observe(frame, { childList: true, subtree: true });
+          }
+
+          window.setTimeout(showFallback, 2500);
+        })();
+      </script>
     </div>
     <p class="visitor-map-title">
       Visitors Distribution
