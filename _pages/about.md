@@ -95,25 +95,33 @@ social: true # includes social icons at the bottom of the page
 
 #clustrmaps-container {
   box-sizing: border-box;
-  flex: 0 1 300px;
+  flex: 0 0 300px;
   max-width: 100%;
   min-width: 0;
-  overflow: hidden;
   text-align: center;
 }
 
-#clustrmaps-container iframe,
-#clustrmaps-container img,
-#clustrmaps-container canvas,
-#clustrmaps-container object {
-  max-width: 100% !important;
+.visitor-map-frame {
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 275px;
+  max-width: 100%;
 }
 
-#clustrmaps-container p {
+.visitor-map-title {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 10px;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.visitor-map-frame iframe,
+.visitor-map-frame img,
+.visitor-map-frame canvas,
+.visitor-map-frame object {
+  max-width: 100% !important;
 }
 
 @media (max-width: 575.98px) {
@@ -185,6 +193,10 @@ social: true # includes social icons at the bottom of the page
     flex-basis: auto;
     margin: 0 auto;
     width: 100%;
+  }
+
+  .visitor-map-frame {
+    width: min(275px, 100%);
   }
 }
 </style>
@@ -346,9 +358,11 @@ My research roadmap is as follows:
 </div>
 
   <div id="clustrmaps-container">
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=f7XCCDBy6e2xZcUt7nrq9L-5IhotWsRN7V4Tk1tpy7c&co=bfdbef"></script>
-   <p>
-    Visitors Distribution
-  </p>
+    <div class="visitor-map-frame">
+      <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=f7XCCDBy6e2xZcUt7nrq9L-5IhotWsRN7V4Tk1tpy7c&co=bfdbef"></script>
+    </div>
+    <p class="visitor-map-title">
+      Visitors Distribution
+    </p>
   </div>
 </div>
