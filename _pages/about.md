@@ -266,8 +266,9 @@ My research roadmap is as follows:
 <div class="about-news-panel">
   <p><strong>Recent News:</strong></p>
   <div class="about-news-grid">
+    
     <div>[2026-08]</div>
-    <div> Our tutorial "<a href="https://darl-libsignal.github.io/Sim2SignalWebsite/tutorial.html"> tutorial on How to Bridge the Sim-to-Real Gap in Traffic Engineering</a>" will be presented in Naples, Italy</div>
+    <div> Our tutorial: "<a href="https://darl-libsignal.github.io/Sim2SignalWebsite/tutorial.html"> How to Bridge the Sim-to-Real Gap in Traffic Engineering</a>" will be presented in Naples, Italy</div>
     
     <div>[2026-06]</div>
     <div> Two papers are accepted to IROS'26! See you in Pittsburgh, US. </div>
