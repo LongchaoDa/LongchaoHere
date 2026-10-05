@@ -1,4 +1,4 @@
-{% if site.footer_fixed %}
+{% if site.footer_fixed and page.footer_fixed != false %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}

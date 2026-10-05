@@ -16,7 +16,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {{ page.body_class }}">
     <!-- Header -->
     {% include header.liquid %}
 
@@ -57,6 +57,9 @@
     {% include scripts/mermaid.liquid %}
     {% include scripts/diff2html.liquid %}
     {% include scripts/leaflet.liquid %}
+    {% if page.travel_map %}
+      <script src="{{ '/assets/js/travel-map.js' | relative_url }}"></script>
+    {% endif %}
     {% include scripts/chartjs.liquid %}
     {% include scripts/echarts.liquid %}
     {% include scripts/vega.liquid %}

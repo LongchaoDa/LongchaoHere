@@ -1,0 +1,218 @@
+# Add a country object to this list to light it up on the map.
+# Photos are discovered from assets/img/travel/<folder>/ at build time.
+visited_countries:
+  - name: United States
+    map_name: United States of America
+    aliases: [United States of America, USA, US]
+    folder: united-states
+    accent: "#9fc3d4"
+    note: "Desert light, mountain roads, coastlines, and the long arc of study and work."
+
+  - name: Canada
+    map_name: Canada
+    folder: canada
+    accent: "#c9d9e2"
+    note: "A quiet northwest stop, held by water, glass, and mountain air."
+
+  - name: China
+    map_name: China
+    aliases: [People's Republic of China]
+    folder: china
+    accent: "#f1cfa8"
+    note: "Home ground, southern streets, old cities, and fast-moving skylines."
+
+  - name: Japan
+    map_name: Japan
+    folder: japan
+    accent: "#d6e7c8"
+    note: "Tokyo rhythm, compact details, and small moments that stay bright."
+
+  - name: Qatar
+    map_name: Qatar
+    folder: qatar
+    accent: "#e7d4bd"
+    note: "A warm crossing point between continents."
+
+  - name: Ethiopia
+    map_name: Ethiopia
+    folder: ethiopia
+    accent: "#cddbb4"
+    note: "A different horizon, carried by altitude, history, and color."
+
+  - name: Germany
+    map_name: Germany
+    folder: germany
+    accent: "#d8d2e6"
+    note: "European stations, old streets, and conference-season walks."
+
+  - name: Spain
+    map_name: Spain
+    folder: spain
+    accent: "#e8b9b1"
+    note: "Warm stone, late light, and cities built for lingering."
+
+  - name: Switzerland
+    map_name: Switzerland
+    folder: switzerland
+    accent: "#bfd8d2"
+    note: "Edges of mountains, clean air, and quiet geometry."
+
+# Add states, provinces, or cities here. Latitude and longitude place the dot.
+# Set highlight: true to keep the place name visible on the world map.
+# label_position may be: top, right, bottom, or left.
+# mobile_label_position and mobile_label_offset fine-tune crowded phone labels.
+places:
+  - name: California
+    group: United States
+    latitude: 36.7783
+    longitude: -119.4179
+
+  - name: Montana
+    group: United States
+    latitude: 46.8797
+    longitude: -110.3626
+
+  - name: New York
+    group: United States
+    latitude: 40.7128
+    longitude: -74.0060
+    highlight: true
+    label_position: right
+    label_offset: [11, -14]
+    mobile_label_position: right
+    mobile_label_offset: [11, -20]
+
+  - name: Idaho
+    group: United States
+    latitude: 44.0682
+    longitude: -114.7420
+
+  - name: Colorado
+    group: United States
+    latitude: 39.5501
+    longitude: -105.7821
+
+  - name: Utah
+    group: United States
+    latitude: 39.3210
+    longitude: -111.0937
+
+  - name: Nevada
+    group: United States
+    latitude: 38.8026
+    longitude: -116.4194
+
+  - name: Oregon
+    group: United States
+    latitude: 43.8041
+    longitude: -120.5542
+
+  - name: Washington
+    group: United States
+    latitude: 47.4009
+    longitude: -120.7401
+
+  - name: Pennsylvania
+    group: United States
+    latitude: 41.2033
+    longitude: -77.1945
+
+  - name: Washington, DC
+    group: United States
+    latitude: 38.9072
+    longitude: -77.0369
+    highlight: true
+    label_position: right
+    label_offset: [11, 14]
+    mobile_label_position: right
+    mobile_label_offset: [11, 20]
+
+  - name: Virginia
+    group: United States
+    latitude: 37.4316
+    longitude: -78.6569
+
+  - name: Georgia
+    group: United States
+    latitude: 32.1656
+    longitude: -82.9001
+
+  - name: Florida
+    group: United States
+    latitude: 27.6648
+    longitude: -81.5158
+
+  - name: Illinois
+    group: United States
+    latitude: 41.8781
+    longitude: -87.6298
+    detail: Chicago
+    map_label: Chicago
+    highlight: true
+    label_position: left
+    mobile_label_position: right
+    mobile_label_offset: [11, -50]
+
+  - name: Arizona
+    group: United States
+    latitude: 34.0489
+    longitude: -111.0937
+
+  - name: Wyoming
+    group: United States
+    latitude: 43.0760
+    longitude: -107.2903
+
+  - name: Hawaii
+    group: United States
+    latitude: 19.8968
+    longitude: -155.5828
+
+  - name: Vancouver
+    group: Canada
+    latitude: 49.2827
+    longitude: -123.1207
+    highlight: true
+    label_position: right
+    label_offset: [11, -14]
+    mobile_label_position: right
+    mobile_label_offset: [11, -75]
+
+  - name: Shaanxi
+    group: China
+    latitude: 35.1917
+    longitude: 108.8701
+
+  - name: Shandong
+    group: China
+    latitude: 36.3427
+    longitude: 118.1498
+
+  - name: Guangzhou
+    group: China
+    latitude: 23.1291
+    longitude: 113.2644
+    highlight: true
+    label_position: left
+    label_offset: [-11, -12]
+    mobile_label_position: left
+    mobile_label_offset: [-11, -18]
+
+  - name: Hong Kong
+    group: China
+    latitude: 22.3193
+    longitude: 114.1694
+    highlight: true
+    label_position: right
+    label_offset: [11, 12]
+    mobile_label_position: left
+    mobile_label_offset: [-11, 18]
+
+  - name: Tokyo
+    group: Japan
+    latitude: 35.6762
+    longitude: 139.6503
+    highlight: true
+    label_position: right
+    mobile_label_position: left
+    mobile_label_offset: [-11, -50]

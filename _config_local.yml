@@ -1,0 +1,31 @@
+# Local-only Jekyll overrides.
+#
+# Use together with the main config:
+#   bundle exec jekyll serve --config _config.yml,_config_local.yml
+#
+# The notebook converter requires a local `jupyter` executable. The home page
+# does not need notebook conversion, so local preview skips this sample notebook
+# folder to keep setup lightweight.
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - LOCALTEST.md
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+  - projects/
+  - assets/jupyter/

@@ -1,0 +1,611 @@
+/*******************************************************************************
+ * Travel atlas
+ ******************************************************************************/
+
+.travel-page-shell {
+  overflow-x: hidden;
+  padding-bottom: 0;
+
+  .container {
+    max-width: 1180px;
+  }
+
+  .post > .post-header {
+    display: none;
+  }
+}
+
+.travel-page {
+  --travel-accent: #6f95a4;
+  --travel-border: #d8dedb;
+  --travel-ink: #24353a;
+  --travel-land: #fbfbf7;
+  --travel-map-border: #c6ceca;
+  --travel-muted: #738183;
+  --travel-ocean: #dbe5e6;
+  --travel-paper: #fbfaf6;
+  --travel-soft: #eef3f1;
+  color: var(--travel-ink);
+  padding-bottom: 3rem;
+
+  h1,
+  h2,
+  h3,
+  p,
+  dd,
+  dt,
+  li,
+  span,
+  strong,
+  button {
+    color: inherit;
+  }
+}
+
+.travel-atlas {
+  padding-top: 1.35rem;
+}
+
+.travel-atlas__header {
+  align-items: end;
+  border-bottom: 1px solid var(--travel-border);
+  display: grid;
+  gap: 1.8rem;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  padding-bottom: 1.25rem;
+}
+
+.travel-eyebrow,
+.travel-section-number {
+  color: var(--travel-accent) !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 0.7rem;
+  text-transform: uppercase;
+}
+
+.travel-atlas h1 {
+  font-size: 2.85rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.04;
+  margin: 0;
+  max-width: 720px;
+  text-wrap: balance;
+}
+
+.travel-lede {
+  color: var(--travel-muted) !important;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin: 0.85rem 0 0;
+  max-width: 620px;
+  text-wrap: pretty;
+}
+
+.travel-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+}
+
+.travel-stats > div {
+  border-left: 1px solid var(--travel-border);
+  min-width: 0;
+  padding-left: 1.15rem;
+}
+
+.travel-stats dt {
+  font-size: 2rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.travel-stats dd {
+  color: var(--travel-muted) !important;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  margin: 0.45rem 0 0;
+}
+
+.travel-map-experience {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  margin-top: 1rem;
+}
+
+.travel-map-board,
+.travel-album-card {
+  background: var(--travel-paper);
+  border: 1px solid var(--travel-border);
+  border-radius: 8px;
+  box-shadow: 0 20px 48px rgba(62, 78, 77, 0.08);
+}
+
+.travel-map-board {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.travel-map-board__topline {
+  align-items: center;
+  border-bottom: 1px solid var(--travel-border);
+  display: flex;
+  justify-content: space-between;
+  min-height: 58px;
+  padding: 0 1.15rem;
+}
+
+.travel-map-board__topline p {
+  color: var(--travel-muted) !important;
+  font-size: 0.78rem;
+  font-weight: 650;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.travel-map-board__topline span {
+  color: var(--travel-ink) !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.travel-map-frame {
+  background: var(--travel-ocean);
+  margin: 0;
+  position: relative;
+}
+
+.travel-map {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.travel-map__ocean {
+  fill: var(--travel-ocean);
+}
+
+.travel-map__graticule line {
+  stroke: rgba(128, 159, 173, 0.42);
+  stroke-dasharray: 10 14;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.travel-map__country {
+  fill: var(--travel-land);
+  stroke: rgba(205, 189, 181, 0.54);
+  stroke-width: 0.75;
+  vector-effect: non-scaling-stroke;
+}
+
+.travel-map__country.is-visited {
+  cursor: pointer;
+  fill: color-mix(in srgb, var(--country-accent) 58%, #fff 42%);
+  stroke: color-mix(in srgb, var(--country-accent) 66%, #7d8c8d 34%);
+  stroke-width: 1.1;
+}
+
+.travel-map__country.is-visited:hover,
+.travel-map__country.is-visited:focus-visible,
+.travel-map__country.is-visited.is-active {
+  fill: color-mix(in srgb, var(--country-accent) 82%, #fff 18%);
+  outline: 0;
+  stroke: color-mix(in srgb, var(--country-accent) 84%, #516063 16%);
+  stroke-width: 1.8;
+}
+
+.travel-map__label {
+  pointer-events: none;
+}
+
+.travel-map__label-halo {
+  fill: color-mix(in srgb, var(--country-accent) 36%, transparent);
+  stroke: color-mix(in srgb, var(--country-accent) 70%, #fff 30%);
+  stroke-width: 2;
+}
+
+.travel-map__label-dot {
+  fill: color-mix(in srgb, var(--country-accent) 72%, #fff 28%);
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.travel-map__label text {
+  fill: rgba(74, 91, 95, 0.76);
+  font-size: 13px;
+  font-weight: 650;
+  letter-spacing: 0;
+  paint-order: stroke;
+  stroke: rgba(251, 251, 247, 0.92);
+  stroke-width: 4px;
+}
+
+.travel-map__label.is-active text {
+  fill: #23363b;
+}
+
+.travel-map__error {
+  fill: var(--travel-muted);
+  font-size: 18px;
+  text-anchor: middle;
+}
+
+.travel-map-caption {
+  bottom: 0.75rem;
+  color: rgba(71, 86, 88, 0.62) !important;
+  font-size: 0.68rem;
+  left: 1rem;
+  margin: 0;
+  position: absolute;
+}
+
+.travel-map-caption a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.travel-album-card {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.15rem;
+}
+
+.travel-album-card__kicker {
+  color: var(--travel-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+
+.travel-album-card h2 {
+  font-size: 2.1rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.05;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.travel-album-card p {
+  color: var(--travel-muted) !important;
+  font-size: 0.9rem;
+  line-height: 1.62;
+  margin: 0.9rem 0 0;
+  text-wrap: pretty;
+}
+
+.travel-album-card__meta {
+  border-bottom: 1px solid var(--travel-border);
+  border-top: 1px solid var(--travel-border);
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 0;
+  padding: 0.75rem 0;
+}
+
+.travel-album-card__meta span {
+  color: var(--travel-muted) !important;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+.travel-album-places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.travel-album-places span {
+  background: var(--travel-soft);
+  border: 1px solid var(--travel-border);
+  border-radius: 999px;
+  color: #536569 !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.45rem 0.62rem;
+}
+
+.travel-photo-grid {
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.travel-photo,
+.travel-photo-placeholder {
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.travel-photo.is-featured,
+.travel-photo-placeholder.is-featured {
+  aspect-ratio: 1.28 / 1;
+  grid-column: 1 / -1;
+}
+
+.travel-photo img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.travel-photo figcaption {
+  background: rgba(37, 48, 50, 0.56);
+  bottom: 0;
+  color: #fff;
+  font-size: 0.72rem;
+  left: 0;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.45rem 0.55rem;
+  position: absolute;
+  right: 0;
+}
+
+.travel-photo-placeholder {
+  align-items: center;
+  background: color-mix(in srgb, var(--country-accent) 34%, #fff 66%);
+  border: 1px solid color-mix(in srgb, var(--country-accent) 48%, #d8dedb 52%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.travel-photo-placeholder span {
+  color: color-mix(in srgb, var(--country-accent) 42%, #4c5f63 58%) !important;
+  font-size: 2rem;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.travel-photo-placeholder p {
+  color: #647175 !important;
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0.75rem 0 0;
+}
+
+.travel-country-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.95rem;
+}
+
+.travel-country-chip {
+  background: color-mix(in srgb, var(--country-accent) 20%, #fff 80%);
+  border: 1px solid color-mix(in srgb, var(--country-accent) 52%, #d5ddda 48%);
+  border-radius: 999px;
+  color: #35464a !important;
+  font-size: 0.78rem;
+  font-weight: 650;
+  min-height: 36px;
+  padding: 0.45rem 0.82rem;
+}
+
+.travel-country-chip:hover,
+.travel-country-chip:focus-visible,
+.travel-country-chip[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--country-accent) 56%, #fff 44%);
+  border-color: color-mix(in srgb, var(--country-accent) 78%, #768789 22%);
+  outline: 0;
+}
+
+.travel-cities {
+  padding-top: 3.4rem;
+}
+
+.travel-section-header {
+  align-items: end;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.travel-section-header--simple {
+  border-bottom: 1px solid var(--travel-border);
+  padding-bottom: 1rem;
+}
+
+.travel-section-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.15;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.travel-section-number {
+  margin-bottom: 0.35rem;
+}
+
+.travel-city-list {
+  display: grid;
+  gap: 0 2.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.travel-city-item {
+  align-items: start;
+  border-bottom: 1px solid var(--travel-border);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  padding: 1.4rem 0;
+}
+
+.travel-city-item__number {
+  color: var(--travel-accent) !important;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  padding-top: 0.22rem;
+}
+
+.travel-city-item h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.travel-city-item__country {
+  color: var(--travel-muted) !important;
+  font-size: 0.78rem;
+  margin: 0.2rem 0 0;
+}
+
+.travel-city-item__note {
+  color: var(--travel-muted) !important;
+  line-height: 1.55;
+  margin: 0.75rem 0 0;
+  text-wrap: pretty;
+}
+
+html[data-theme="dark"] .travel-page {
+  --travel-accent: #9eb8bf;
+  --travel-border: #334143;
+  --travel-ink: #eef4f2;
+  --travel-land: #f3f2ec;
+  --travel-map-border: #4c5b5e;
+  --travel-muted: #b7c4c2;
+  --travel-ocean: #bcc9ca;
+  --travel-paper: #182325;
+  --travel-soft: #223033;
+}
+
+@media (max-width: 991.98px) {
+  .travel-map-experience {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .travel-album-card {
+    min-height: 0;
+  }
+
+  .travel-photo-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .travel-photo.is-featured,
+  .travel-photo-placeholder.is-featured {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .travel-page-shell .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .travel-atlas {
+    padding-top: 1.1rem;
+  }
+
+  .travel-atlas__header {
+    align-items: start;
+    gap: 1.5rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .travel-atlas h1 {
+    font-size: 2.2rem;
+  }
+
+  .travel-lede {
+    font-size: 0.98rem;
+  }
+
+  .travel-stats > div {
+    padding-left: 0.75rem;
+  }
+
+  .travel-stats dt {
+    font-size: 1.55rem;
+  }
+
+  .travel-map-board__topline {
+    min-height: 52px;
+    padding: 0 0.85rem;
+  }
+
+  .travel-map-frame {
+    overflow-x: auto;
+  }
+
+  .travel-map {
+    min-width: 760px;
+  }
+
+  .travel-map-caption {
+    position: static;
+    padding: 0 0.85rem 0.8rem;
+  }
+
+  .travel-country-strip {
+    flex-wrap: nowrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    overflow-x: auto;
+    padding: 0 1rem 0.25rem;
+    scrollbar-width: none;
+  }
+
+  .travel-country-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .travel-country-chip {
+    flex: 0 0 auto;
+  }
+
+  .travel-photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .travel-photo.is-featured,
+  .travel-photo-placeholder.is-featured {
+    grid-column: 1 / -1;
+  }
+
+  .travel-city-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .travel-city-item:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .travel-atlas h1 {
+    font-size: 2.15rem;
+  }
+
+  .travel-album-card h2 {
+    font-size: 1.85rem;
+  }
+}
