@@ -13,3 +13,17 @@ The travel page scans image files in these folders during the Jekyll build. Supp
 ```
 
 Folder names are defined in `_data/travel.yml` under `visited_countries`.
+
+Current folders:
+
+```text
+canada/
+china/
+ethiopia/
+germany/
+japan/
+qatar/
+spain/
+switzerland/
+united-states/
+```
