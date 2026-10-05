@@ -43,7 +43,15 @@ module Jekyll
     end
 
     def bust_css_cache(file_name)
-      CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+      css_sources = Dir[File.join('_sass', '**', '*')]
+                    .sort
+                    .map { |file| File.file?(file) ? File.read(file) : '' }
+                    .join
+
+      main_scss = 'assets/css/main.scss'
+      css_sources << File.read(main_scss) if File.file?(main_scss)
+
+      [file_name, '?', Digest::MD5.hexdigest(css_sources)].join
     end
   end
 end
