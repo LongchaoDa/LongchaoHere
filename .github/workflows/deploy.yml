@@ -7,10 +7,14 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_plugins/**"
+      - "_sass/**"
       - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "**.rb"
+      - "**.scss"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -34,10 +38,14 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_plugins/**"
+      - "_sass/**"
       - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "**.rb"
+      - "**.scss"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
